@@ -1,6 +1,13 @@
 build:
   version: "{cipher}cdb6d03c5dceafad04f94ab6c50b8680c94245272e204c85159738d8d3cf2b10"
 
+server:
+  port: 8081
+
 spring:
   application:
     name: "accounts-microservice"
+  profiles:
+    active: default
+
+

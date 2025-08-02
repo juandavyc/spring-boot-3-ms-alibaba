@@ -1,7 +1,11 @@
 build:
   version: "{cipher}bb23cc21dc3f82f90916d6570a10de9d04071ef05f56483d5e33e8584008eb2b"
 
+server:
+  port: 8082
 
 spring:
   application:
     name: "inventory-microservice"
+  profiles:
+    active: default

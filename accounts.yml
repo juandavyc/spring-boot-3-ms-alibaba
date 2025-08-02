@@ -1,5 +1,5 @@
 build:
-  version: 1.0
+  version: "{cipher}92a71d121bb83b2a2c4f7c2f1744c9de832160a1521293fbf34c91c9f1a734df"
 
 spring:
   application:

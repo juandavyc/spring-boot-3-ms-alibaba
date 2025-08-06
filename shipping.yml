@@ -2,7 +2,7 @@ build:
   version: "{cipher}88425d702fead5698e0744789d88728d28012e05f8752dc023d546a2ec04bd45"
 
 server:
-  port: 8083
+  port: 8084
 
 spring:
   application:

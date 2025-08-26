@@ -10,4 +10,11 @@ spring:
   profiles:
     active: default
 
-
+eureka:
+  instance:
+    prefer-ip-address: true 
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: "${EUREKA_CLIENT_SERVICEURL_DEFAULT_ZONE:http://localhost:8070/eureka/}"

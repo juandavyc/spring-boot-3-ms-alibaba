@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: "gateway-microservice"
+    name: "gatewayserver"
   profiles:
     active: default
 

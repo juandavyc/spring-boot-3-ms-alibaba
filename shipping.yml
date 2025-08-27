@@ -6,7 +6,7 @@ server:
 
 spring:
   application:
-    name: "shipping-microservice"
+    name: shipping
   profiles:
     active: default
 

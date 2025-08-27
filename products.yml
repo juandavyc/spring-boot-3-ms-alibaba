@@ -6,7 +6,7 @@ server:
 
 spring:
   application:
-    name: "products-microservice"
+    name: products
   profiles:
     active: default
 

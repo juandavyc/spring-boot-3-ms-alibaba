@@ -2,14 +2,15 @@ build:
   version: "{cipher}bb23cc21dc3f82f90916d6570a10de9d04071ef05f56483d5e33e8584008eb2b"
 
 server:
-  port: 8083
+  port: 8084
 
 spring:
   application:
-    name: inventory
+    name: orders
   profiles:
     active: default
-    
+
+# client
 eureka:
   instance:
     prefer-ip-address: true 
@@ -17,6 +18,4 @@ eureka:
     register-with-eureka: true
     fetch-registry: true
     service-url:
-      defaultZone: "${EUREKA_CLIENT_SERVICEURL_DEFAULT_ZONE:http://localhost:8070/eureka/}"
-
-
+      defaultZone: "http://localhost:8070/eureka/"

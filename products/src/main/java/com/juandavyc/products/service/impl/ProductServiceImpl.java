@@ -3,6 +3,7 @@ package com.juandavyc.products.service.impl;
 import com.juandavyc.products.dto.request.ProductRequestDto;
 import com.juandavyc.products.dto.response.PagedResponseDto;
 import com.juandavyc.products.dto.response.ProductResponseDto;
+import com.juandavyc.products.dto.response.ProductsBatchResponseDto;
 import com.juandavyc.products.entity.Product;
 import com.juandavyc.products.exception.ResourceAlreadyExistsException;
 import com.juandavyc.products.exception.ResourceNotFoundException;
@@ -15,6 +16,9 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
 import java.time.LocalDateTime;
+import java.util.List;
+import java.util.UUID;
+import java.util.stream.Collectors;
 
 @Service
 @RequiredArgsConstructor
@@ -31,7 +35,7 @@ public class ProductServiceImpl implements IProductService {
 
 
     @Override
-    public Long createProduct(ProductRequestDto productRequestDto) {
+    public UUID createProduct(ProductRequestDto productRequestDto) {
 
         String code = productRequestDto.getCode();
         if (productRepository.existsByCodeAndDeletedIsFalse(code)) {
@@ -53,12 +57,45 @@ public class ProductServiceImpl implements IProductService {
 
 
     @Override
-    public ProductResponseDto fetchProduct(Long id) {
+    public ProductResponseDto fetchProduct(UUID id) {
 
-        Product product = productRepository.findById(id)
+        Product product = productRepository.findByIdAndDeletedIsFalse(id)
                 .orElseThrow(() -> new ResourceNotFoundException("Product", "id", id.toString()));
 
         return ProductMapper.productToProductResponseDto(product);
 
+    }
+
+    @Override
+    public ProductResponseDto updateProduct(UUID id, ProductRequestDto productRequestDto) {
+        Product productToUpdate = productRepository.findByIdAndDeletedIsFalse(id)
+                .orElseThrow(() -> new ResourceNotFoundException("Product", "id", id.toString()));
+
+        Product product = ProductMapper.productUpdateDtoToProduct(productRequestDto, productToUpdate);
+
+        Product updatedProduct = productRepository.save(product);
+
+        return ProductMapper.productToProductResponseDto(updatedProduct);
+    }
+
+    @Override
+    public boolean deleteProduct(UUID id) {
+        Product productToDelete = productRepository.findById(id)
+                .orElseThrow(() -> new ResourceNotFoundException("Product", "id", id.toString()));
+        if (productToDelete.getDeleted()) {
+            return true;
+        }
+        productToDelete.setDeleted(true);
+        productRepository.save(productToDelete);
+        return true;
+    }
+
+    @Override
+    public List<ProductResponseDto> fetchProductsByIds(List<UUID> ids) {
+
+        final var productList = productRepository.findAllById(ids);
+
+//        return ProductMapper.toProductsBatchResponseDto(productList,ids);
+        return ProductMapper.toListProductResponseDto(productList);
     }
 }

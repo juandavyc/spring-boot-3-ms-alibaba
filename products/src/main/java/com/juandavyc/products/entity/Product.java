@@ -3,7 +3,9 @@ package com.juandavyc.products.entity;
 import jakarta.persistence.*;
 import lombok.*;
 
+import java.math.BigDecimal;
 import java.util.Objects;
+import java.util.UUID;
 
 @Entity
 @Table(name = "products")
@@ -15,15 +17,15 @@ import java.util.Objects;
 public class Product extends BaseEntity {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+    @GeneratedValue
+    private UUID id;
     @Column(unique = true, nullable = false)
     private String code;
     @Column(unique = true, nullable = false)
     private String name;
     private String description;
     @Column(nullable = false)
-    private Double price;
+    private BigDecimal price;
     private Boolean deleted = false;
 
 

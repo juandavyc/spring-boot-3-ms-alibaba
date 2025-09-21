@@ -14,13 +14,12 @@ public enum AccountResponseCode {
     SUCCESS(HttpStatus.OK, "Request processed successfully"),
     UPDATE_FAILED(HttpStatus.EXPECTATION_FAILED, "Update operation failed"),
     DELETE_FAILED(HttpStatus.EXPECTATION_FAILED, "Delete operation failed"),
-    INTERNAL_ERROR(HttpStatus.BAD_REQUEST, "An error occurred");
+    INTERNAL_ERROR(HttpStatus.BAD_REQUEST, "An error occurred"),
+    AVAILABLE(HttpStatus.OK, "Resource is available"),
+    EXISTS(HttpStatus.CONFLICT, "Resource already exists"),
+    BAD_REQUEST(HttpStatus.BAD_REQUEST, "Invalid request parameters");
 
     private final HttpStatus status;
     private final String message;
-
-
-
-
 
 }

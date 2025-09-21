@@ -1,0 +1,1113 @@
+2025-08-29T00:00:08.165-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-8] c.j.accounts.logging.loggingAspect       : Entering: AccountController.fetchAccount with arguments: [2]
+2025-08-29T00:00:08.169-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-8] c.j.accounts.logging.loggingAspect       : Entering: AccountServiceImpl.fetchAccountById with arguments: [2]
+2025-08-29T00:00:08.171-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-8] c.j.accounts.logging.loggingAspect       : Exiting: AccountServiceImpl.fetchAccountById with result: AccountResponseDto[id=2, username=kik1, email=kik2o@aa.co, deleted=false, createdAt=2025-08-28T23:43:38.386622, updatedAt=null]
+2025-08-29T00:00:08.171-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-8] c.j.accounts.logging.loggingAspect       : Exiting: AccountController.fetchAccount with result: <200 OK OK,ResponseDto(code=200, status=200 OK, message=Request processed successfully, data=AccountResponseDto[id=2, username=kik1, email=kik2o@aa.co, deleted=false, createdAt=2025-08-28T23:43:38.386622, updatedAt=null], timestamp=2025-08-29T00:00:08.171171899),[]>
+2025-08-29T00:00:08.757-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-9] c.j.accounts.logging.loggingAspect       : Entering: AccountController.existsByUsername with arguments: [kik1, null]
+2025-08-29T00:00:08.757-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-9] c.j.accounts.logging.loggingAspect       : Entering: AccountServiceImpl.existByUsername with arguments: [kik1]
+2025-08-29T00:00:08.759-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-9] c.j.accounts.logging.loggingAspect       : Exiting: AccountServiceImpl.existByUsername with result: true
+2025-08-29T00:00:08.759-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-9] c.j.accounts.logging.loggingAspect       : Exiting: AccountController.existsByUsername with result: <409 CONFLICT Conflict,ResponseDto(code=409, status=409 CONFLICT, message=Resource already exists, data=true, timestamp=2025-08-29T00:00:08.759410202),[]>
+2025-08-29T00:00:09.272-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-1] c.j.accounts.logging.loggingAspect       : Entering: AccountController.existsByEmail with arguments: [kik2o@aa.co, null]
+2025-08-29T00:00:09.273-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-1] c.j.accounts.logging.loggingAspect       : Entering: AccountServiceImpl.existByEmail with arguments: [kik2o@aa.co]
+2025-08-29T00:00:09.276-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-1] c.j.accounts.logging.loggingAspect       : Exiting: AccountServiceImpl.existByEmail with result: true
+2025-08-29T00:00:09.277-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-1] c.j.accounts.logging.loggingAspect       : Exiting: AccountController.existsByEmail with result: <409 CONFLICT Conflict,ResponseDto(code=409, status=409 CONFLICT, message=Resource already exists, data=true, timestamp=2025-08-29T00:00:09.276794224),[]>
+2025-08-29T00:04:14.307-05:00  INFO 101176 --- [accounts] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-08-29T00:09:14.308-05:00  INFO 101176 --- [accounts] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-08-29T00:09:22.534-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-2] c.j.accounts.logging.loggingAspect       : Entering: AccountController.fetchAccount with arguments: [2]
+2025-08-29T00:09:22.536-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-2] c.j.accounts.logging.loggingAspect       : Entering: AccountServiceImpl.fetchAccountById with arguments: [2]
+2025-08-29T00:09:22.538-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-2] c.j.accounts.logging.loggingAspect       : Exiting: AccountServiceImpl.fetchAccountById with result: AccountResponseDto[id=2, username=kik1, email=kik2o@aa.co, deleted=false, createdAt=2025-08-28T23:43:38.386622, updatedAt=null]
+2025-08-29T00:09:22.538-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-2] c.j.accounts.logging.loggingAspect       : Exiting: AccountController.fetchAccount with result: <200 OK OK,ResponseDto(code=200, status=200 OK, message=Request processed successfully, data=AccountResponseDto[id=2, username=kik1, email=kik2o@aa.co, deleted=false, createdAt=2025-08-28T23:43:38.386622, updatedAt=null], timestamp=2025-08-29T00:09:22.538117892),[]>
+2025-08-29T00:09:26.701-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-4] c.j.accounts.logging.loggingAspect       : Entering: AccountController.fetchAccount with arguments: [1]
+2025-08-29T00:09:26.702-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-4] c.j.accounts.logging.loggingAspect       : Entering: AccountServiceImpl.fetchAccountById with arguments: [1]
+2025-08-29T00:09:26.704-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-4] c.j.accounts.logging.loggingAspect       : Exiting: AccountServiceImpl.fetchAccountById with result: AccountResponseDto[id=1, username=kiko, email=kiko@aa.co, deleted=false, createdAt=2025-08-28T23:33:22.873169, updatedAt=null]
+2025-08-29T00:09:26.705-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-4] c.j.accounts.logging.loggingAspect       : Exiting: AccountController.fetchAccount with result: <200 OK OK,ResponseDto(code=200, status=200 OK, message=Request processed successfully, data=AccountResponseDto[id=1, username=kiko, email=kiko@aa.co, deleted=false, createdAt=2025-08-28T23:33:22.873169, updatedAt=null], timestamp=2025-08-29T00:09:26.705119137),[]>
+2025-08-29T00:09:28.102-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-3] c.j.accounts.logging.loggingAspect       : Entering: AccountController.fetchAccount with arguments: [2]
+2025-08-29T00:09:28.103-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-3] c.j.accounts.logging.loggingAspect       : Entering: AccountServiceImpl.fetchAccountById with arguments: [2]
+2025-08-29T00:09:28.107-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-3] c.j.accounts.logging.loggingAspect       : Exiting: AccountServiceImpl.fetchAccountById with result: AccountResponseDto[id=2, username=kik1, email=kik2o@aa.co, deleted=false, createdAt=2025-08-28T23:43:38.386622, updatedAt=null]
+2025-08-29T00:09:28.108-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-3] c.j.accounts.logging.loggingAspect       : Exiting: AccountController.fetchAccount with result: <200 OK OK,ResponseDto(code=200, status=200 OK, message=Request processed successfully, data=AccountResponseDto[id=2, username=kik1, email=kik2o@aa.co, deleted=false, createdAt=2025-08-28T23:43:38.386622, updatedAt=null], timestamp=2025-08-29T00:09:28.108195056),[]>
+2025-08-29T00:09:37.056-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-6] c.j.accounts.logging.loggingAspect       : Entering: AccountController.fetchAccount with arguments: [2]
+2025-08-29T00:09:37.056-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-6] c.j.accounts.logging.loggingAspect       : Entering: AccountServiceImpl.fetchAccountById with arguments: [2]
+2025-08-29T00:09:37.058-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-6] c.j.accounts.logging.loggingAspect       : Exiting: AccountServiceImpl.fetchAccountById with result: AccountResponseDto[id=2, username=kik1, email=kik2o@aa.co, deleted=false, createdAt=2025-08-28T23:43:38.386622, updatedAt=null]
+2025-08-29T00:09:37.058-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-6] c.j.accounts.logging.loggingAspect       : Exiting: AccountController.fetchAccount with result: <200 OK OK,ResponseDto(code=200, status=200 OK, message=Request processed successfully, data=AccountResponseDto[id=2, username=kik1, email=kik2o@aa.co, deleted=false, createdAt=2025-08-28T23:43:38.386622, updatedAt=null], timestamp=2025-08-29T00:09:37.058274380),[]>
+2025-08-29T00:09:38.189-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-5] c.j.accounts.logging.loggingAspect       : Entering: AccountController.existsByEmail with arguments: [kik2o@aa.co, null]
+2025-08-29T00:09:38.189-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-5] c.j.accounts.logging.loggingAspect       : Entering: AccountServiceImpl.existByEmail with arguments: [kik2o@aa.co]
+2025-08-29T00:09:38.190-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-5] c.j.accounts.logging.loggingAspect       : Exiting: AccountServiceImpl.existByEmail with result: true
+2025-08-29T00:09:38.191-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-5] c.j.accounts.logging.loggingAspect       : Exiting: AccountController.existsByEmail with result: <409 CONFLICT Conflict,ResponseDto(code=409, status=409 CONFLICT, message=Resource already exists, data=true, timestamp=2025-08-29T00:09:38.191016714),[]>
+2025-08-29T00:10:07.623-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-7] c.j.accounts.logging.loggingAspect       : Entering: AccountController.fetchAccount with arguments: [1]
+2025-08-29T00:10:07.623-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-7] c.j.accounts.logging.loggingAspect       : Entering: AccountServiceImpl.fetchAccountById with arguments: [1]
+2025-08-29T00:10:07.628-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-7] c.j.accounts.logging.loggingAspect       : Exiting: AccountServiceImpl.fetchAccountById with result: AccountResponseDto[id=1, username=kiko, email=kiko@aa.co, deleted=false, createdAt=2025-08-28T23:33:22.873169, updatedAt=null]
+2025-08-29T00:10:07.629-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-7] c.j.accounts.logging.loggingAspect       : Exiting: AccountController.fetchAccount with result: <200 OK OK,ResponseDto(code=200, status=200 OK, message=Request processed successfully, data=AccountResponseDto[id=1, username=kiko, email=kiko@aa.co, deleted=false, createdAt=2025-08-28T23:33:22.873169, updatedAt=null], timestamp=2025-08-29T00:10:07.628929184),[]>
+2025-08-29T00:10:08.667-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-8] c.j.accounts.logging.loggingAspect       : Entering: AccountController.existsByEmail with arguments: [kiko@aa.co, null]
+2025-08-29T00:10:08.668-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-8] c.j.accounts.logging.loggingAspect       : Entering: AccountServiceImpl.existByEmail with arguments: [kiko@aa.co]
+2025-08-29T00:10:08.671-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-8] c.j.accounts.logging.loggingAspect       : Exiting: AccountServiceImpl.existByEmail with result: true
+2025-08-29T00:10:08.672-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-8] c.j.accounts.logging.loggingAspect       : Exiting: AccountController.existsByEmail with result: <409 CONFLICT Conflict,ResponseDto(code=409, status=409 CONFLICT, message=Resource already exists, data=true, timestamp=2025-08-29T00:10:08.672189535),[]>
+2025-08-29T00:10:08.859-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-9] c.j.accounts.logging.loggingAspect       : Entering: AccountController.fetchAccount with arguments: [2]
+2025-08-29T00:10:08.859-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-9] c.j.accounts.logging.loggingAspect       : Entering: AccountServiceImpl.fetchAccountById with arguments: [2]
+2025-08-29T00:10:08.861-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-9] c.j.accounts.logging.loggingAspect       : Exiting: AccountServiceImpl.fetchAccountById with result: AccountResponseDto[id=2, username=kik1, email=kik2o@aa.co, deleted=false, createdAt=2025-08-28T23:43:38.386622, updatedAt=null]
+2025-08-29T00:10:08.862-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-9] c.j.accounts.logging.loggingAspect       : Exiting: AccountController.fetchAccount with result: <200 OK OK,ResponseDto(code=200, status=200 OK, message=Request processed successfully, data=AccountResponseDto[id=2, username=kik1, email=kik2o@aa.co, deleted=false, createdAt=2025-08-28T23:43:38.386622, updatedAt=null], timestamp=2025-08-29T00:10:08.861915586),[]>
+2025-08-29T00:10:09.891-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-1] c.j.accounts.logging.loggingAspect       : Entering: AccountController.existsByEmail with arguments: [kik2o@aa.co, null]
+2025-08-29T00:10:09.891-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-1] c.j.accounts.logging.loggingAspect       : Entering: AccountServiceImpl.existByEmail with arguments: [kik2o@aa.co]
+2025-08-29T00:10:09.895-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-1] c.j.accounts.logging.loggingAspect       : Exiting: AccountServiceImpl.existByEmail with result: true
+2025-08-29T00:10:09.895-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-1] c.j.accounts.logging.loggingAspect       : Exiting: AccountController.existsByEmail with result: <409 CONFLICT Conflict,ResponseDto(code=409, status=409 CONFLICT, message=Resource already exists, data=true, timestamp=2025-08-29T00:10:09.895315707),[]>
+2025-08-29T00:10:32.824-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-10] c.j.accounts.logging.loggingAspect       : Entering: AccountController.existsByUsername with arguments: [fgfg, null]
+2025-08-29T00:10:32.825-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-10] c.j.accounts.logging.loggingAspect       : Entering: AccountServiceImpl.existByUsername with arguments: [fgfg]
+2025-08-29T00:10:32.828-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-10] c.j.accounts.logging.loggingAspect       : Exiting: AccountServiceImpl.existByUsername with result: false
+2025-08-29T00:10:32.829-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-10] c.j.accounts.logging.loggingAspect       : Exiting: AccountController.existsByUsername with result: <200 OK OK,ResponseDto(code=200, status=200 OK, message=Resource is available, data=false, timestamp=2025-08-29T00:10:32.829017011),[]>
+2025-08-29T00:10:38.492-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-2] c.j.accounts.logging.loggingAspect       : Entering: AccountController.existsByUsername with arguments: [fgdf, null]
+2025-08-29T00:10:38.493-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-2] c.j.accounts.logging.loggingAspect       : Entering: AccountServiceImpl.existByUsername with arguments: [fgdf]
+2025-08-29T00:10:38.496-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-2] c.j.accounts.logging.loggingAspect       : Exiting: AccountServiceImpl.existByUsername with result: false
+2025-08-29T00:10:38.496-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-2] c.j.accounts.logging.loggingAspect       : Exiting: AccountController.existsByUsername with result: <200 OK OK,ResponseDto(code=200, status=200 OK, message=Resource is available, data=false, timestamp=2025-08-29T00:10:38.496759272),[]>
+2025-08-29T00:11:29.629-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-4] c.j.accounts.logging.loggingAspect       : Entering: AccountController.fetchAccount with arguments: [2]
+2025-08-29T00:11:29.629-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-4] c.j.accounts.logging.loggingAspect       : Entering: AccountServiceImpl.fetchAccountById with arguments: [2]
+2025-08-29T00:11:29.631-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-4] c.j.accounts.logging.loggingAspect       : Exiting: AccountServiceImpl.fetchAccountById with result: AccountResponseDto[id=2, username=kik1, email=kik2o@aa.co, deleted=false, createdAt=2025-08-28T23:43:38.386622, updatedAt=null]
+2025-08-29T00:11:29.631-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-4] c.j.accounts.logging.loggingAspect       : Exiting: AccountController.fetchAccount with result: <200 OK OK,ResponseDto(code=200, status=200 OK, message=Request processed successfully, data=AccountResponseDto[id=2, username=kik1, email=kik2o@aa.co, deleted=false, createdAt=2025-08-28T23:43:38.386622, updatedAt=null], timestamp=2025-08-29T00:11:29.631609323),[]>
+2025-08-29T00:11:30.759-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-3] c.j.accounts.logging.loggingAspect       : Entering: AccountController.existsByEmail with arguments: [kik2o@aa.co, null]
+2025-08-29T00:11:30.759-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-3] c.j.accounts.logging.loggingAspect       : Entering: AccountServiceImpl.existByEmail with arguments: [kik2o@aa.co]
+2025-08-29T00:11:30.761-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-3] c.j.accounts.logging.loggingAspect       : Exiting: AccountServiceImpl.existByEmail with result: true
+2025-08-29T00:11:30.761-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-3] c.j.accounts.logging.loggingAspect       : Exiting: AccountController.existsByEmail with result: <409 CONFLICT Conflict,ResponseDto(code=409, status=409 CONFLICT, message=Resource already exists, data=true, timestamp=2025-08-29T00:11:30.761099220),[]>
+2025-08-29T00:11:34.409-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-6] c.j.accounts.logging.loggingAspect       : Entering: AccountController.fetchAccount with arguments: [1]
+2025-08-29T00:11:34.409-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-6] c.j.accounts.logging.loggingAspect       : Entering: AccountServiceImpl.fetchAccountById with arguments: [1]
+2025-08-29T00:11:34.412-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-6] c.j.accounts.logging.loggingAspect       : Exiting: AccountServiceImpl.fetchAccountById with result: AccountResponseDto[id=1, username=kiko, email=kiko@aa.co, deleted=false, createdAt=2025-08-28T23:33:22.873169, updatedAt=null]
+2025-08-29T00:11:34.412-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-6] c.j.accounts.logging.loggingAspect       : Exiting: AccountController.fetchAccount with result: <200 OK OK,ResponseDto(code=200, status=200 OK, message=Request processed successfully, data=AccountResponseDto[id=1, username=kiko, email=kiko@aa.co, deleted=false, createdAt=2025-08-28T23:33:22.873169, updatedAt=null], timestamp=2025-08-29T00:11:34.412203592),[]>
+2025-08-29T00:11:35.442-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-5] c.j.accounts.logging.loggingAspect       : Entering: AccountController.existsByEmail with arguments: [kiko@aa.co, null]
+2025-08-29T00:11:35.443-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-5] c.j.accounts.logging.loggingAspect       : Entering: AccountServiceImpl.existByEmail with arguments: [kiko@aa.co]
+2025-08-29T00:11:35.446-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-5] c.j.accounts.logging.loggingAspect       : Exiting: AccountServiceImpl.existByEmail with result: true
+2025-08-29T00:11:35.447-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-5] c.j.accounts.logging.loggingAspect       : Exiting: AccountController.existsByEmail with result: <409 CONFLICT Conflict,ResponseDto(code=409, status=409 CONFLICT, message=Resource already exists, data=true, timestamp=2025-08-29T00:11:35.447142333),[]>
+2025-08-29T00:11:38.536-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-7] c.j.accounts.logging.loggingAspect       : Entering: AccountController.fetchAccount with arguments: [2]
+2025-08-29T00:11:38.536-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-7] c.j.accounts.logging.loggingAspect       : Entering: AccountServiceImpl.fetchAccountById with arguments: [2]
+2025-08-29T00:11:38.538-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-7] c.j.accounts.logging.loggingAspect       : Exiting: AccountServiceImpl.fetchAccountById with result: AccountResponseDto[id=2, username=kik1, email=kik2o@aa.co, deleted=false, createdAt=2025-08-28T23:43:38.386622, updatedAt=null]
+2025-08-29T00:11:38.539-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-7] c.j.accounts.logging.loggingAspect       : Exiting: AccountController.fetchAccount with result: <200 OK OK,ResponseDto(code=200, status=200 OK, message=Request processed successfully, data=AccountResponseDto[id=2, username=kik1, email=kik2o@aa.co, deleted=false, createdAt=2025-08-28T23:43:38.386622, updatedAt=null], timestamp=2025-08-29T00:11:38.539043406),[]>
+2025-08-29T00:11:39.587-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-8] c.j.accounts.logging.loggingAspect       : Entering: AccountController.existsByEmail with arguments: [kik2o@aa.co, null]
+2025-08-29T00:11:39.588-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-8] c.j.accounts.logging.loggingAspect       : Entering: AccountServiceImpl.existByEmail with arguments: [kik2o@aa.co]
+2025-08-29T00:11:39.591-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-8] c.j.accounts.logging.loggingAspect       : Exiting: AccountServiceImpl.existByEmail with result: true
+2025-08-29T00:11:39.591-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-8] c.j.accounts.logging.loggingAspect       : Exiting: AccountController.existsByEmail with result: <409 CONFLICT Conflict,ResponseDto(code=409, status=409 CONFLICT, message=Resource already exists, data=true, timestamp=2025-08-29T00:11:39.591719420),[]>
+2025-08-29T00:11:42.016-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-9] c.j.accounts.logging.loggingAspect       : Entering: AccountController.fetchAccount with arguments: [1]
+2025-08-29T00:11:42.016-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-9] c.j.accounts.logging.loggingAspect       : Entering: AccountServiceImpl.fetchAccountById with arguments: [1]
+2025-08-29T00:11:42.018-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-9] c.j.accounts.logging.loggingAspect       : Exiting: AccountServiceImpl.fetchAccountById with result: AccountResponseDto[id=1, username=kiko, email=kiko@aa.co, deleted=false, createdAt=2025-08-28T23:33:22.873169, updatedAt=null]
+2025-08-29T00:11:42.018-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-9] c.j.accounts.logging.loggingAspect       : Exiting: AccountController.fetchAccount with result: <200 OK OK,ResponseDto(code=200, status=200 OK, message=Request processed successfully, data=AccountResponseDto[id=1, username=kiko, email=kiko@aa.co, deleted=false, createdAt=2025-08-28T23:33:22.873169, updatedAt=null], timestamp=2025-08-29T00:11:42.018464569),[]>
+2025-08-29T00:11:43.051-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-1] c.j.accounts.logging.loggingAspect       : Entering: AccountController.existsByEmail with arguments: [kiko@aa.co, null]
+2025-08-29T00:11:43.052-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-1] c.j.accounts.logging.loggingAspect       : Entering: AccountServiceImpl.existByEmail with arguments: [kiko@aa.co]
+2025-08-29T00:11:43.055-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-1] c.j.accounts.logging.loggingAspect       : Exiting: AccountServiceImpl.existByEmail with result: true
+2025-08-29T00:11:43.056-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-1] c.j.accounts.logging.loggingAspect       : Exiting: AccountController.existsByEmail with result: <409 CONFLICT Conflict,ResponseDto(code=409, status=409 CONFLICT, message=Resource already exists, data=true, timestamp=2025-08-29T00:11:43.056094942),[]>
+2025-08-29T00:11:49.341-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-10] c.j.accounts.logging.loggingAspect       : Entering: AccountController.fetchAccount with arguments: [1]
+2025-08-29T00:11:49.342-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-10] c.j.accounts.logging.loggingAspect       : Entering: AccountServiceImpl.fetchAccountById with arguments: [1]
+2025-08-29T00:11:49.343-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-10] c.j.accounts.logging.loggingAspect       : Exiting: AccountServiceImpl.fetchAccountById with result: AccountResponseDto[id=1, username=kiko, email=kiko@aa.co, deleted=false, createdAt=2025-08-28T23:33:22.873169, updatedAt=null]
+2025-08-29T00:11:49.343-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-10] c.j.accounts.logging.loggingAspect       : Exiting: AccountController.fetchAccount with result: <200 OK OK,ResponseDto(code=200, status=200 OK, message=Request processed successfully, data=AccountResponseDto[id=1, username=kiko, email=kiko@aa.co, deleted=false, createdAt=2025-08-28T23:33:22.873169, updatedAt=null], timestamp=2025-08-29T00:11:49.343737158),[]>
+2025-08-29T00:11:50.475-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-2] c.j.accounts.logging.loggingAspect       : Entering: AccountController.existsByEmail with arguments: [kiko@aa.co, null]
+2025-08-29T00:11:50.476-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-2] c.j.accounts.logging.loggingAspect       : Entering: AccountServiceImpl.existByEmail with arguments: [kiko@aa.co]
+2025-08-29T00:11:50.478-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-2] c.j.accounts.logging.loggingAspect       : Exiting: AccountServiceImpl.existByEmail with result: true
+2025-08-29T00:11:50.478-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-2] c.j.accounts.logging.loggingAspect       : Exiting: AccountController.existsByEmail with result: <409 CONFLICT Conflict,ResponseDto(code=409, status=409 CONFLICT, message=Resource already exists, data=true, timestamp=2025-08-29T00:11:50.478510634),[]>
+2025-08-29T00:11:54.752-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-4] c.j.accounts.logging.loggingAspect       : Entering: AccountController.fetchAccount with arguments: [1]
+2025-08-29T00:11:54.753-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-4] c.j.accounts.logging.loggingAspect       : Entering: AccountServiceImpl.fetchAccountById with arguments: [1]
+2025-08-29T00:11:54.756-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-4] c.j.accounts.logging.loggingAspect       : Exiting: AccountServiceImpl.fetchAccountById with result: AccountResponseDto[id=1, username=kiko, email=kiko@aa.co, deleted=false, createdAt=2025-08-28T23:33:22.873169, updatedAt=null]
+2025-08-29T00:11:54.757-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-4] c.j.accounts.logging.loggingAspect       : Exiting: AccountController.fetchAccount with result: <200 OK OK,ResponseDto(code=200, status=200 OK, message=Request processed successfully, data=AccountResponseDto[id=1, username=kiko, email=kiko@aa.co, deleted=false, createdAt=2025-08-28T23:33:22.873169, updatedAt=null], timestamp=2025-08-29T00:11:54.756815305),[]>
+2025-08-29T00:11:55.679-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-3] c.j.accounts.logging.loggingAspect       : Entering: AccountController.fetchAccount with arguments: [2]
+2025-08-29T00:11:55.680-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-3] c.j.accounts.logging.loggingAspect       : Entering: AccountServiceImpl.fetchAccountById with arguments: [2]
+2025-08-29T00:11:55.684-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-3] c.j.accounts.logging.loggingAspect       : Exiting: AccountServiceImpl.fetchAccountById with result: AccountResponseDto[id=2, username=kik1, email=kik2o@aa.co, deleted=false, createdAt=2025-08-28T23:43:38.386622, updatedAt=null]
+2025-08-29T00:11:55.685-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-3] c.j.accounts.logging.loggingAspect       : Exiting: AccountController.fetchAccount with result: <200 OK OK,ResponseDto(code=200, status=200 OK, message=Request processed successfully, data=AccountResponseDto[id=2, username=kik1, email=kik2o@aa.co, deleted=false, createdAt=2025-08-28T23:43:38.386622, updatedAt=null], timestamp=2025-08-29T00:11:55.685138355),[]>
+2025-08-29T00:11:56.718-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-6] c.j.accounts.logging.loggingAspect       : Entering: AccountController.existsByEmail with arguments: [kik2o@aa.co, null]
+2025-08-29T00:11:56.719-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-6] c.j.accounts.logging.loggingAspect       : Entering: AccountServiceImpl.existByEmail with arguments: [kik2o@aa.co]
+2025-08-29T00:11:56.722-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-6] c.j.accounts.logging.loggingAspect       : Exiting: AccountServiceImpl.existByEmail with result: true
+2025-08-29T00:11:56.723-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-6] c.j.accounts.logging.loggingAspect       : Exiting: AccountController.existsByEmail with result: <409 CONFLICT Conflict,ResponseDto(code=409, status=409 CONFLICT, message=Resource already exists, data=true, timestamp=2025-08-29T00:11:56.722972264),[]>
+2025-08-29T00:14:14.309-05:00  INFO 101176 --- [accounts] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-08-29T00:16:19.865-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-7] c.j.accounts.logging.loggingAspect       : Entering: AccountController.fetchAccount with arguments: [2]
+2025-08-29T00:16:19.866-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-7] c.j.accounts.logging.loggingAspect       : Entering: AccountServiceImpl.fetchAccountById with arguments: [2]
+2025-08-29T00:16:19.867-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-7] c.j.accounts.logging.loggingAspect       : Exiting: AccountServiceImpl.fetchAccountById with result: AccountResponseDto[id=2, username=kik1, email=kik2o@aa.co, deleted=false, createdAt=2025-08-28T23:43:38.386622, updatedAt=null]
+2025-08-29T00:16:19.868-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-7] c.j.accounts.logging.loggingAspect       : Exiting: AccountController.fetchAccount with result: <200 OK OK,ResponseDto(code=200, status=200 OK, message=Request processed successfully, data=AccountResponseDto[id=2, username=kik1, email=kik2o@aa.co, deleted=false, createdAt=2025-08-28T23:43:38.386622, updatedAt=null], timestamp=2025-08-29T00:16:19.867966994),[]>
+2025-08-29T00:16:22.234-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-8] c.j.accounts.logging.loggingAspect       : Entering: AccountController.fetchAccount with arguments: [2]
+2025-08-29T00:16:22.235-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-8] c.j.accounts.logging.loggingAspect       : Entering: AccountServiceImpl.fetchAccountById with arguments: [2]
+2025-08-29T00:16:22.236-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-8] c.j.accounts.logging.loggingAspect       : Exiting: AccountServiceImpl.fetchAccountById with result: AccountResponseDto[id=2, username=kik1, email=kik2o@aa.co, deleted=false, createdAt=2025-08-28T23:43:38.386622, updatedAt=null]
+2025-08-29T00:16:22.236-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-8] c.j.accounts.logging.loggingAspect       : Exiting: AccountController.fetchAccount with result: <200 OK OK,ResponseDto(code=200, status=200 OK, message=Request processed successfully, data=AccountResponseDto[id=2, username=kik1, email=kik2o@aa.co, deleted=false, createdAt=2025-08-28T23:43:38.386622, updatedAt=null], timestamp=2025-08-29T00:16:22.236883341),[]>
+2025-08-29T00:16:28.309-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-9] c.j.accounts.logging.loggingAspect       : Entering: AccountController.fetchAccount with arguments: [1]
+2025-08-29T00:16:28.309-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-9] c.j.accounts.logging.loggingAspect       : Entering: AccountServiceImpl.fetchAccountById with arguments: [1]
+2025-08-29T00:16:28.311-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-9] c.j.accounts.logging.loggingAspect       : Exiting: AccountServiceImpl.fetchAccountById with result: AccountResponseDto[id=1, username=kiko, email=kiko@aa.co, deleted=false, createdAt=2025-08-28T23:33:22.873169, updatedAt=null]
+2025-08-29T00:16:28.312-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-9] c.j.accounts.logging.loggingAspect       : Exiting: AccountController.fetchAccount with result: <200 OK OK,ResponseDto(code=200, status=200 OK, message=Request processed successfully, data=AccountResponseDto[id=1, username=kiko, email=kiko@aa.co, deleted=false, createdAt=2025-08-28T23:33:22.873169, updatedAt=null], timestamp=2025-08-29T00:16:28.312062627),[]>
+2025-08-29T00:16:31.280-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-1] c.j.accounts.logging.loggingAspect       : Entering: AccountController.fetchAccount with arguments: [2]
+2025-08-29T00:16:31.280-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-1] c.j.accounts.logging.loggingAspect       : Entering: AccountServiceImpl.fetchAccountById with arguments: [2]
+2025-08-29T00:16:31.282-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-1] c.j.accounts.logging.loggingAspect       : Exiting: AccountServiceImpl.fetchAccountById with result: AccountResponseDto[id=2, username=kik1, email=kik2o@aa.co, deleted=false, createdAt=2025-08-28T23:43:38.386622, updatedAt=null]
+2025-08-29T00:16:31.283-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-1] c.j.accounts.logging.loggingAspect       : Exiting: AccountController.fetchAccount with result: <200 OK OK,ResponseDto(code=200, status=200 OK, message=Request processed successfully, data=AccountResponseDto[id=2, username=kik1, email=kik2o@aa.co, deleted=false, createdAt=2025-08-28T23:43:38.386622, updatedAt=null], timestamp=2025-08-29T00:16:31.282969219),[]>
+2025-08-29T00:16:36.625-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-10] c.j.accounts.logging.loggingAspect       : Entering: AccountController.fetchAccount with arguments: [1]
+2025-08-29T00:16:36.625-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-10] c.j.accounts.logging.loggingAspect       : Entering: AccountServiceImpl.fetchAccountById with arguments: [1]
+2025-08-29T00:16:36.626-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-10] c.j.accounts.logging.loggingAspect       : Exiting: AccountServiceImpl.fetchAccountById with result: AccountResponseDto[id=1, username=kiko, email=kiko@aa.co, deleted=false, createdAt=2025-08-28T23:33:22.873169, updatedAt=null]
+2025-08-29T00:16:36.627-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-10] c.j.accounts.logging.loggingAspect       : Exiting: AccountController.fetchAccount with result: <200 OK OK,ResponseDto(code=200, status=200 OK, message=Request processed successfully, data=AccountResponseDto[id=1, username=kiko, email=kiko@aa.co, deleted=false, createdAt=2025-08-28T23:33:22.873169, updatedAt=null], timestamp=2025-08-29T00:16:36.627045475),[]>
+2025-08-29T00:16:38.638-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-2] c.j.accounts.logging.loggingAspect       : Entering: AccountController.fetchAccount with arguments: [2]
+2025-08-29T00:16:38.639-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-2] c.j.accounts.logging.loggingAspect       : Entering: AccountServiceImpl.fetchAccountById with arguments: [2]
+2025-08-29T00:16:38.642-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-2] c.j.accounts.logging.loggingAspect       : Exiting: AccountServiceImpl.fetchAccountById with result: AccountResponseDto[id=2, username=kik1, email=kik2o@aa.co, deleted=false, createdAt=2025-08-28T23:43:38.386622, updatedAt=null]
+2025-08-29T00:16:38.642-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-2] c.j.accounts.logging.loggingAspect       : Exiting: AccountController.fetchAccount with result: <200 OK OK,ResponseDto(code=200, status=200 OK, message=Request processed successfully, data=AccountResponseDto[id=2, username=kik1, email=kik2o@aa.co, deleted=false, createdAt=2025-08-28T23:43:38.386622, updatedAt=null], timestamp=2025-08-29T00:16:38.642463873),[]>
+2025-08-29T00:17:11.319-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-4] c.j.accounts.logging.loggingAspect       : Entering: AccountController.fetchAccount with arguments: [2]
+2025-08-29T00:17:11.320-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-4] c.j.accounts.logging.loggingAspect       : Entering: AccountServiceImpl.fetchAccountById with arguments: [2]
+2025-08-29T00:17:11.322-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-4] c.j.accounts.logging.loggingAspect       : Exiting: AccountServiceImpl.fetchAccountById with result: AccountResponseDto[id=2, username=kik1, email=kik2o@aa.co, deleted=false, createdAt=2025-08-28T23:43:38.386622, updatedAt=null]
+2025-08-29T00:17:11.322-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-4] c.j.accounts.logging.loggingAspect       : Exiting: AccountController.fetchAccount with result: <200 OK OK,ResponseDto(code=200, status=200 OK, message=Request processed successfully, data=AccountResponseDto[id=2, username=kik1, email=kik2o@aa.co, deleted=false, createdAt=2025-08-28T23:43:38.386622, updatedAt=null], timestamp=2025-08-29T00:17:11.322783587),[]>
+2025-08-29T00:17:40.688-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-3] c.j.accounts.logging.loggingAspect       : Entering: AccountController.fetchAccount with arguments: [2]
+2025-08-29T00:17:40.689-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-3] c.j.accounts.logging.loggingAspect       : Entering: AccountServiceImpl.fetchAccountById with arguments: [2]
+2025-08-29T00:17:40.691-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-3] c.j.accounts.logging.loggingAspect       : Exiting: AccountServiceImpl.fetchAccountById with result: AccountResponseDto[id=2, username=kik1, email=kik2o@aa.co, deleted=false, createdAt=2025-08-28T23:43:38.386622, updatedAt=null]
+2025-08-29T00:17:40.691-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-3] c.j.accounts.logging.loggingAspect       : Exiting: AccountController.fetchAccount with result: <200 OK OK,ResponseDto(code=200, status=200 OK, message=Request processed successfully, data=AccountResponseDto[id=2, username=kik1, email=kik2o@aa.co, deleted=false, createdAt=2025-08-28T23:43:38.386622, updatedAt=null], timestamp=2025-08-29T00:17:40.691262281),[]>
+2025-08-29T00:17:45.669-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-6] c.j.accounts.logging.loggingAspect       : Entering: AccountController.fetchAccount with arguments: [2]
+2025-08-29T00:17:45.669-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-6] c.j.accounts.logging.loggingAspect       : Entering: AccountServiceImpl.fetchAccountById with arguments: [2]
+2025-08-29T00:17:45.670-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-6] c.j.accounts.logging.loggingAspect       : Exiting: AccountServiceImpl.fetchAccountById with result: AccountResponseDto[id=2, username=kik1, email=kik2o@aa.co, deleted=false, createdAt=2025-08-28T23:43:38.386622, updatedAt=null]
+2025-08-29T00:17:45.670-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-6] c.j.accounts.logging.loggingAspect       : Exiting: AccountController.fetchAccount with result: <200 OK OK,ResponseDto(code=200, status=200 OK, message=Request processed successfully, data=AccountResponseDto[id=2, username=kik1, email=kik2o@aa.co, deleted=false, createdAt=2025-08-28T23:43:38.386622, updatedAt=null], timestamp=2025-08-29T00:17:45.670864887),[]>
+2025-08-29T00:17:52.971-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-5] c.j.accounts.logging.loggingAspect       : Entering: AccountController.fetchAccount with arguments: [1]
+2025-08-29T00:17:52.971-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-5] c.j.accounts.logging.loggingAspect       : Entering: AccountServiceImpl.fetchAccountById with arguments: [1]
+2025-08-29T00:17:52.974-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-5] c.j.accounts.logging.loggingAspect       : Exiting: AccountServiceImpl.fetchAccountById with result: AccountResponseDto[id=1, username=kiko, email=kiko@aa.co, deleted=false, createdAt=2025-08-28T23:33:22.873169, updatedAt=null]
+2025-08-29T00:17:52.974-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-5] c.j.accounts.logging.loggingAspect       : Exiting: AccountController.fetchAccount with result: <200 OK OK,ResponseDto(code=200, status=200 OK, message=Request processed successfully, data=AccountResponseDto[id=1, username=kiko, email=kiko@aa.co, deleted=false, createdAt=2025-08-28T23:33:22.873169, updatedAt=null], timestamp=2025-08-29T00:17:52.974717548),[]>
+2025-08-29T00:18:15.872-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-7] c.j.accounts.logging.loggingAspect       : Entering: AccountController.fetchAccount with arguments: [1]
+2025-08-29T00:18:15.872-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-7] c.j.accounts.logging.loggingAspect       : Entering: AccountServiceImpl.fetchAccountById with arguments: [1]
+2025-08-29T00:18:15.875-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-7] c.j.accounts.logging.loggingAspect       : Exiting: AccountServiceImpl.fetchAccountById with result: AccountResponseDto[id=1, username=kiko, email=kiko@aa.co, deleted=false, createdAt=2025-08-28T23:33:22.873169, updatedAt=null]
+2025-08-29T00:18:15.876-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-7] c.j.accounts.logging.loggingAspect       : Exiting: AccountController.fetchAccount with result: <200 OK OK,ResponseDto(code=200, status=200 OK, message=Request processed successfully, data=AccountResponseDto[id=1, username=kiko, email=kiko@aa.co, deleted=false, createdAt=2025-08-28T23:33:22.873169, updatedAt=null], timestamp=2025-08-29T00:18:15.876071283),[]>
+2025-08-29T00:18:16.503-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-8] c.j.accounts.logging.loggingAspect       : Entering: AccountController.existsByUsername with arguments: [kiko, null]
+2025-08-29T00:18:16.504-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-8] c.j.accounts.logging.loggingAspect       : Entering: AccountServiceImpl.existByUsername with arguments: [kiko]
+2025-08-29T00:18:16.510-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-8] c.j.accounts.logging.loggingAspect       : Exiting: AccountServiceImpl.existByUsername with result: true
+2025-08-29T00:18:16.510-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-8] c.j.accounts.logging.loggingAspect       : Exiting: AccountController.existsByUsername with result: <409 CONFLICT Conflict,ResponseDto(code=409, status=409 CONFLICT, message=Resource already exists, data=true, timestamp=2025-08-29T00:18:16.510505146),[]>
+2025-08-29T00:18:16.511-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-9] c.j.accounts.logging.loggingAspect       : Entering: AccountController.existsByUsername with arguments: [kiko@aa.co, null]
+2025-08-29T00:18:16.512-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-9] c.j.accounts.logging.loggingAspect       : Entering: AccountServiceImpl.existByUsername with arguments: [kiko@aa.co]
+2025-08-29T00:18:16.515-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-9] c.j.accounts.logging.loggingAspect       : Exiting: AccountServiceImpl.existByUsername with result: false
+2025-08-29T00:18:16.515-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-9] c.j.accounts.logging.loggingAspect       : Exiting: AccountController.existsByUsername with result: <200 OK OK,ResponseDto(code=200, status=200 OK, message=Resource is available, data=false, timestamp=2025-08-29T00:18:16.515618713),[]>
+2025-08-29T00:18:22.821-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-1] c.j.accounts.logging.loggingAspect       : Entering: AccountController.fetchAccount with arguments: [1]
+2025-08-29T00:18:22.822-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-1] c.j.accounts.logging.loggingAspect       : Entering: AccountServiceImpl.fetchAccountById with arguments: [1]
+2025-08-29T00:18:22.824-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-1] c.j.accounts.logging.loggingAspect       : Exiting: AccountServiceImpl.fetchAccountById with result: AccountResponseDto[id=1, username=kiko, email=kiko@aa.co, deleted=false, createdAt=2025-08-28T23:33:22.873169, updatedAt=null]
+2025-08-29T00:18:22.824-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-1] c.j.accounts.logging.loggingAspect       : Exiting: AccountController.fetchAccount with result: <200 OK OK,ResponseDto(code=200, status=200 OK, message=Request processed successfully, data=AccountResponseDto[id=1, username=kiko, email=kiko@aa.co, deleted=false, createdAt=2025-08-28T23:33:22.873169, updatedAt=null], timestamp=2025-08-29T00:18:22.824292179),[]>
+2025-08-29T00:18:42.520-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-10] c.j.accounts.logging.loggingAspect       : Entering: AccountController.fetchAccount with arguments: [1]
+2025-08-29T00:18:42.521-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-10] c.j.accounts.logging.loggingAspect       : Entering: AccountServiceImpl.fetchAccountById with arguments: [1]
+2025-08-29T00:18:42.522-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-10] c.j.accounts.logging.loggingAspect       : Exiting: AccountServiceImpl.fetchAccountById with result: AccountResponseDto[id=1, username=kiko, email=kiko@aa.co, deleted=false, createdAt=2025-08-28T23:33:22.873169, updatedAt=null]
+2025-08-29T00:18:42.523-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-10] c.j.accounts.logging.loggingAspect       : Exiting: AccountController.fetchAccount with result: <200 OK OK,ResponseDto(code=200, status=200 OK, message=Request processed successfully, data=AccountResponseDto[id=1, username=kiko, email=kiko@aa.co, deleted=false, createdAt=2025-08-28T23:33:22.873169, updatedAt=null], timestamp=2025-08-29T00:18:42.523014593),[]>
+2025-08-29T00:18:44.886-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-2] c.j.accounts.logging.loggingAspect       : Entering: AccountController.fetchAccount with arguments: [2]
+2025-08-29T00:18:44.886-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-2] c.j.accounts.logging.loggingAspect       : Entering: AccountServiceImpl.fetchAccountById with arguments: [2]
+2025-08-29T00:18:44.890-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-2] c.j.accounts.logging.loggingAspect       : Exiting: AccountServiceImpl.fetchAccountById with result: AccountResponseDto[id=2, username=kik1, email=kik2o@aa.co, deleted=false, createdAt=2025-08-28T23:43:38.386622, updatedAt=null]
+2025-08-29T00:18:44.891-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-2] c.j.accounts.logging.loggingAspect       : Exiting: AccountController.fetchAccount with result: <200 OK OK,ResponseDto(code=200, status=200 OK, message=Request processed successfully, data=AccountResponseDto[id=2, username=kik1, email=kik2o@aa.co, deleted=false, createdAt=2025-08-28T23:43:38.386622, updatedAt=null], timestamp=2025-08-29T00:18:44.891231425),[]>
+2025-08-29T00:19:14.310-05:00  INFO 101176 --- [accounts] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-08-29T00:19:28.732-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-4] c.j.accounts.logging.loggingAspect       : Entering: AccountController.fetchAccount with arguments: [2]
+2025-08-29T00:19:28.732-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-4] c.j.accounts.logging.loggingAspect       : Entering: AccountServiceImpl.fetchAccountById with arguments: [2]
+2025-08-29T00:19:28.735-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-4] c.j.accounts.logging.loggingAspect       : Exiting: AccountServiceImpl.fetchAccountById with result: AccountResponseDto[id=2, username=kik1, email=kik2o@aa.co, deleted=false, createdAt=2025-08-28T23:43:38.386622, updatedAt=null]
+2025-08-29T00:19:28.735-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-4] c.j.accounts.logging.loggingAspect       : Exiting: AccountController.fetchAccount with result: <200 OK OK,ResponseDto(code=200, status=200 OK, message=Request processed successfully, data=AccountResponseDto[id=2, username=kik1, email=kik2o@aa.co, deleted=false, createdAt=2025-08-28T23:43:38.386622, updatedAt=null], timestamp=2025-08-29T00:19:28.735638349),[]>
+2025-08-29T00:19:33.272-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-3] c.j.accounts.logging.loggingAspect       : Entering: AccountController.fetchAccount with arguments: [1]
+2025-08-29T00:19:33.272-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-3] c.j.accounts.logging.loggingAspect       : Entering: AccountServiceImpl.fetchAccountById with arguments: [1]
+2025-08-29T00:19:33.274-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-3] c.j.accounts.logging.loggingAspect       : Exiting: AccountServiceImpl.fetchAccountById with result: AccountResponseDto[id=1, username=kiko, email=kiko@aa.co, deleted=false, createdAt=2025-08-28T23:33:22.873169, updatedAt=null]
+2025-08-29T00:19:33.274-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-3] c.j.accounts.logging.loggingAspect       : Exiting: AccountController.fetchAccount with result: <200 OK OK,ResponseDto(code=200, status=200 OK, message=Request processed successfully, data=AccountResponseDto[id=1, username=kiko, email=kiko@aa.co, deleted=false, createdAt=2025-08-28T23:33:22.873169, updatedAt=null], timestamp=2025-08-29T00:19:33.274171754),[]>
+2025-08-29T00:20:26.474-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-6] c.j.accounts.logging.loggingAspect       : Entering: AccountController.fetchAccount with arguments: [1]
+2025-08-29T00:20:26.475-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-6] c.j.accounts.logging.loggingAspect       : Entering: AccountServiceImpl.fetchAccountById with arguments: [1]
+2025-08-29T00:20:26.478-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-6] c.j.accounts.logging.loggingAspect       : Exiting: AccountServiceImpl.fetchAccountById with result: AccountResponseDto[id=1, username=kiko, email=kiko@aa.co, deleted=false, createdAt=2025-08-28T23:33:22.873169, updatedAt=null]
+2025-08-29T00:20:26.478-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-6] c.j.accounts.logging.loggingAspect       : Exiting: AccountController.fetchAccount with result: <200 OK OK,ResponseDto(code=200, status=200 OK, message=Request processed successfully, data=AccountResponseDto[id=1, username=kiko, email=kiko@aa.co, deleted=false, createdAt=2025-08-28T23:33:22.873169, updatedAt=null], timestamp=2025-08-29T00:20:26.478668278),[]>
+2025-08-29T00:20:27.070-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-5] c.j.accounts.logging.loggingAspect       : Entering: AccountController.existsByUsername with arguments: [kiko, null]
+2025-08-29T00:20:27.071-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-5] c.j.accounts.logging.loggingAspect       : Entering: AccountServiceImpl.existByUsername with arguments: [kiko]
+2025-08-29T00:20:27.072-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-7] c.j.accounts.logging.loggingAspect       : Entering: AccountController.existsByUsername with arguments: [kiko@aa.co, null]
+2025-08-29T00:20:27.072-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-7] c.j.accounts.logging.loggingAspect       : Entering: AccountServiceImpl.existByUsername with arguments: [kiko@aa.co]
+2025-08-29T00:20:27.074-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-5] c.j.accounts.logging.loggingAspect       : Exiting: AccountServiceImpl.existByUsername with result: true
+2025-08-29T00:20:27.074-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-5] c.j.accounts.logging.loggingAspect       : Exiting: AccountController.existsByUsername with result: <409 CONFLICT Conflict,ResponseDto(code=409, status=409 CONFLICT, message=Resource already exists, data=true, timestamp=2025-08-29T00:20:27.074215767),[]>
+2025-08-29T00:20:27.075-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-7] c.j.accounts.logging.loggingAspect       : Exiting: AccountServiceImpl.existByUsername with result: false
+2025-08-29T00:20:27.075-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-7] c.j.accounts.logging.loggingAspect       : Exiting: AccountController.existsByUsername with result: <200 OK OK,ResponseDto(code=200, status=200 OK, message=Resource is available, data=false, timestamp=2025-08-29T00:20:27.075575824),[]>
+2025-08-29T00:20:30.868-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-8] c.j.accounts.logging.loggingAspect       : Entering: AccountController.existsByUsername with arguments: [kikot, null]
+2025-08-29T00:20:30.869-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-8] c.j.accounts.logging.loggingAspect       : Entering: AccountServiceImpl.existByUsername with arguments: [kikot]
+2025-08-29T00:20:30.873-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-8] c.j.accounts.logging.loggingAspect       : Exiting: AccountServiceImpl.existByUsername with result: false
+2025-08-29T00:20:30.873-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-8] c.j.accounts.logging.loggingAspect       : Exiting: AccountController.existsByUsername with result: <200 OK OK,ResponseDto(code=200, status=200 OK, message=Resource is available, data=false, timestamp=2025-08-29T00:20:30.873394797),[]>
+2025-08-29T00:20:34.237-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-9] c.j.accounts.logging.loggingAspect       : Entering: AccountController.existsByUsername with arguments: [kiko, null]
+2025-08-29T00:20:34.237-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-9] c.j.accounts.logging.loggingAspect       : Entering: AccountServiceImpl.existByUsername with arguments: [kiko]
+2025-08-29T00:20:34.238-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-9] c.j.accounts.logging.loggingAspect       : Exiting: AccountServiceImpl.existByUsername with result: true
+2025-08-29T00:20:34.239-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-9] c.j.accounts.logging.loggingAspect       : Exiting: AccountController.existsByUsername with result: <409 CONFLICT Conflict,ResponseDto(code=409, status=409 CONFLICT, message=Resource already exists, data=true, timestamp=2025-08-29T00:20:34.239062514),[]>
+2025-08-29T00:20:45.648-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-1] c.j.accounts.logging.loggingAspect       : Entering: AccountController.fetchAccount with arguments: [1]
+2025-08-29T00:20:45.648-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-1] c.j.accounts.logging.loggingAspect       : Entering: AccountServiceImpl.fetchAccountById with arguments: [1]
+2025-08-29T00:20:45.649-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-1] c.j.accounts.logging.loggingAspect       : Exiting: AccountServiceImpl.fetchAccountById with result: AccountResponseDto[id=1, username=kiko, email=kiko@aa.co, deleted=false, createdAt=2025-08-28T23:33:22.873169, updatedAt=null]
+2025-08-29T00:20:45.649-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-1] c.j.accounts.logging.loggingAspect       : Exiting: AccountController.fetchAccount with result: <200 OK OK,ResponseDto(code=200, status=200 OK, message=Request processed successfully, data=AccountResponseDto[id=1, username=kiko, email=kiko@aa.co, deleted=false, createdAt=2025-08-28T23:33:22.873169, updatedAt=null], timestamp=2025-08-29T00:20:45.649785873),[]>
+2025-08-29T00:20:46.287-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-10] c.j.accounts.logging.loggingAspect       : Entering: AccountController.existsByUsername with arguments: [kiko, null]
+2025-08-29T00:20:46.288-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-10] c.j.accounts.logging.loggingAspect       : Entering: AccountServiceImpl.existByUsername with arguments: [kiko]
+2025-08-29T00:20:46.289-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-2] c.j.accounts.logging.loggingAspect       : Entering: AccountController.existsByUsername with arguments: [kiko@aa.co, null]
+2025-08-29T00:20:46.290-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-2] c.j.accounts.logging.loggingAspect       : Entering: AccountServiceImpl.existByUsername with arguments: [kiko@aa.co]
+2025-08-29T00:20:46.291-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-10] c.j.accounts.logging.loggingAspect       : Exiting: AccountServiceImpl.existByUsername with result: true
+2025-08-29T00:20:46.291-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-10] c.j.accounts.logging.loggingAspect       : Exiting: AccountController.existsByUsername with result: <409 CONFLICT Conflict,ResponseDto(code=409, status=409 CONFLICT, message=Resource already exists, data=true, timestamp=2025-08-29T00:20:46.291669121),[]>
+2025-08-29T00:20:46.293-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-2] c.j.accounts.logging.loggingAspect       : Exiting: AccountServiceImpl.existByUsername with result: false
+2025-08-29T00:20:46.293-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-2] c.j.accounts.logging.loggingAspect       : Exiting: AccountController.existsByUsername with result: <200 OK OK,ResponseDto(code=200, status=200 OK, message=Resource is available, data=false, timestamp=2025-08-29T00:20:46.293213223),[]>
+2025-08-29T00:21:06.000-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-4] c.j.accounts.logging.loggingAspect       : Entering: AccountController.existsByUsername with arguments: [kiko4, null]
+2025-08-29T00:21:06.001-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-4] c.j.accounts.logging.loggingAspect       : Entering: AccountServiceImpl.existByUsername with arguments: [kiko4]
+2025-08-29T00:21:06.004-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-4] c.j.accounts.logging.loggingAspect       : Exiting: AccountServiceImpl.existByUsername with result: false
+2025-08-29T00:21:06.004-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-4] c.j.accounts.logging.loggingAspect       : Exiting: AccountController.existsByUsername with result: <200 OK OK,ResponseDto(code=200, status=200 OK, message=Resource is available, data=false, timestamp=2025-08-29T00:21:06.004710932),[]>
+2025-08-29T00:21:18.819-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-3] c.j.accounts.logging.loggingAspect       : Entering: AccountController.fetchAccount with arguments: [1]
+2025-08-29T00:21:18.819-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-3] c.j.accounts.logging.loggingAspect       : Entering: AccountServiceImpl.fetchAccountById with arguments: [1]
+2025-08-29T00:21:18.824-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-3] c.j.accounts.logging.loggingAspect       : Exiting: AccountServiceImpl.fetchAccountById with result: AccountResponseDto[id=1, username=kiko, email=kiko@aa.co, deleted=false, createdAt=2025-08-28T23:33:22.873169, updatedAt=null]
+2025-08-29T00:21:18.824-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-3] c.j.accounts.logging.loggingAspect       : Exiting: AccountController.fetchAccount with result: <200 OK OK,ResponseDto(code=200, status=200 OK, message=Request processed successfully, data=AccountResponseDto[id=1, username=kiko, email=kiko@aa.co, deleted=false, createdAt=2025-08-28T23:33:22.873169, updatedAt=null], timestamp=2025-08-29T00:21:18.824376541),[]>
+2025-08-29T00:21:19.473-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-5] c.j.accounts.logging.loggingAspect       : Entering: AccountController.existsByUsername with arguments: [kiko@aa.co, null]
+2025-08-29T00:21:19.473-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-6] c.j.accounts.logging.loggingAspect       : Entering: AccountController.existsByUsername with arguments: [kiko, null]
+2025-08-29T00:21:19.473-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-5] c.j.accounts.logging.loggingAspect       : Entering: AccountServiceImpl.existByUsername with arguments: [kiko@aa.co]
+2025-08-29T00:21:19.473-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-6] c.j.accounts.logging.loggingAspect       : Entering: AccountServiceImpl.existByUsername with arguments: [kiko]
+2025-08-29T00:21:19.475-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-5] c.j.accounts.logging.loggingAspect       : Exiting: AccountServiceImpl.existByUsername with result: false
+2025-08-29T00:21:19.475-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-6] c.j.accounts.logging.loggingAspect       : Exiting: AccountServiceImpl.existByUsername with result: true
+2025-08-29T00:21:19.475-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-5] c.j.accounts.logging.loggingAspect       : Exiting: AccountController.existsByUsername with result: <200 OK OK,ResponseDto(code=200, status=200 OK, message=Resource is available, data=false, timestamp=2025-08-29T00:21:19.475475023),[]>
+2025-08-29T00:21:19.475-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-6] c.j.accounts.logging.loggingAspect       : Exiting: AccountController.existsByUsername with result: <409 CONFLICT Conflict,ResponseDto(code=409, status=409 CONFLICT, message=Resource already exists, data=true, timestamp=2025-08-29T00:21:19.475495085),[]>
+2025-08-29T00:21:22.307-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-7] c.j.accounts.logging.loggingAspect       : Entering: AccountController.existsByUsername with arguments: [567, null]
+2025-08-29T00:21:22.307-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-7] c.j.accounts.logging.loggingAspect       : Entering: AccountServiceImpl.existByUsername with arguments: [567]
+2025-08-29T00:21:22.311-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-7] c.j.accounts.logging.loggingAspect       : Exiting: AccountServiceImpl.existByUsername with result: false
+2025-08-29T00:21:22.311-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-7] c.j.accounts.logging.loggingAspect       : Exiting: AccountController.existsByUsername with result: <200 OK OK,ResponseDto(code=200, status=200 OK, message=Resource is available, data=false, timestamp=2025-08-29T00:21:22.311616200),[]>
+2025-08-29T00:21:25.329-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-8] c.j.accounts.logging.loggingAspect       : Entering: AccountController.existsByUsername with arguments: [hgjghj, null]
+2025-08-29T00:21:25.329-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-8] c.j.accounts.logging.loggingAspect       : Entering: AccountServiceImpl.existByUsername with arguments: [hgjghj]
+2025-08-29T00:21:25.331-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-8] c.j.accounts.logging.loggingAspect       : Exiting: AccountServiceImpl.existByUsername with result: false
+2025-08-29T00:21:25.331-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-8] c.j.accounts.logging.loggingAspect       : Exiting: AccountController.existsByUsername with result: <200 OK OK,ResponseDto(code=200, status=200 OK, message=Resource is available, data=false, timestamp=2025-08-29T00:21:25.331190611),[]>
+2025-08-29T00:21:25.522-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-9] c.j.accounts.logging.loggingAspect       : Entering: AccountController.fetchAccount with arguments: [33]
+2025-08-29T00:21:25.523-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-9] c.j.accounts.logging.loggingAspect       : Entering: AccountServiceImpl.fetchAccountById with arguments: [33]
+2025-08-29T00:21:25.524-05:00 ERROR 101176 --- [accounts] [http-nio-8081-exec-9] c.j.accounts.logging.loggingAspect       : Exception in: AccountServiceImpl.fetchAccountById -> Account not found for field id with value 33
+
+com.juandavyc.accounts.exception.ResourceNotFoundException: Account not found for field id with value 33
+	at com.juandavyc.accounts.service.impl.AccountServiceImpl.lambda$fetchAccountById$0(AccountServiceImpl.java:53) ~[classes/:na]
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403) ~[na:na]
+	at com.juandavyc.accounts.service.impl.AccountServiceImpl.fetchAccountById(AccountServiceImpl.java:53) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:360) ~[spring-aop-6.2.9.jar:6.2.9]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196) ~[spring-aop-6.2.9.jar:6.2.9]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-6.2.9.jar:6.2.9]
+	at org.springframework.aop.aspectj.AspectJAfterThrowingAdvice.invoke(AspectJAfterThrowingAdvice.java:64) ~[spring-aop-6.2.9.jar:6.2.9]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.9.jar:6.2.9]
+	at org.springframework.aop.framework.adapter.AfterReturningAdviceInterceptor.invoke(AfterReturningAdviceInterceptor.java:57) ~[spring-aop-6.2.9.jar:6.2.9]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.9.jar:6.2.9]
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58) ~[spring-aop-6.2.9.jar:6.2.9]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.9.jar:6.2.9]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97) ~[spring-aop-6.2.9.jar:6.2.9]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.9.jar:6.2.9]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:728) ~[spring-aop-6.2.9.jar:6.2.9]
+	at com.juandavyc.accounts.service.impl.AccountServiceImpl$$SpringCGLIB$$0.fetchAccountById(<generated>) ~[classes/:na]
+	at com.juandavyc.accounts.controller.AccountController.fetchAccount(AccountController.java:54) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:360) ~[spring-aop-6.2.9.jar:6.2.9]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196) ~[spring-aop-6.2.9.jar:6.2.9]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-6.2.9.jar:6.2.9]
+	at org.springframework.validation.beanvalidation.MethodValidationInterceptor.invoke(MethodValidationInterceptor.java:174) ~[spring-context-6.2.9.jar:6.2.9]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.9.jar:6.2.9]
+	at org.springframework.aop.aspectj.AspectJAfterThrowingAdvice.invoke(AspectJAfterThrowingAdvice.java:64) ~[spring-aop-6.2.9.jar:6.2.9]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.9.jar:6.2.9]
+	at org.springframework.aop.framework.adapter.AfterReturningAdviceInterceptor.invoke(AfterReturningAdviceInterceptor.java:57) ~[spring-aop-6.2.9.jar:6.2.9]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.9.jar:6.2.9]
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58) ~[spring-aop-6.2.9.jar:6.2.9]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.9.jar:6.2.9]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97) ~[spring-aop-6.2.9.jar:6.2.9]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.9.jar:6.2.9]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:728) ~[spring-aop-6.2.9.jar:6.2.9]
+	at com.juandavyc.accounts.controller.AccountController$$SpringCGLIB$$0.fetchAccount(<generated>) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.2.9.jar:6.2.9]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:991) ~[spring-webmvc-6.2.9.jar:6.2.9]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:896) ~[spring-webmvc-6.2.9.jar:6.2.9]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.2.9.jar:6.2.9]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.2.9.jar:6.2.9]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.2.9.jar:6.2.9]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.9.jar:6.2.9]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.2.9.jar:6.2.9]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.43.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.9.jar:6.2.9]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.43.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at com.juandavyc.accounts.config.MDCFilter.doFilter(MDCFilter.java:28) ~[classes/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:110) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1769) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+2025-08-29T00:21:25.525-05:00 ERROR 101176 --- [accounts] [http-nio-8081-exec-9] c.j.accounts.logging.loggingAspect       : Exception in: AccountController.fetchAccount -> Account not found for field id with value 33
+
+com.juandavyc.accounts.exception.ResourceNotFoundException: Account not found for field id with value 33
+	at com.juandavyc.accounts.service.impl.AccountServiceImpl.lambda$fetchAccountById$0(AccountServiceImpl.java:53) ~[classes/:na]
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403) ~[na:na]
+	at com.juandavyc.accounts.service.impl.AccountServiceImpl.fetchAccountById(AccountServiceImpl.java:53) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:360) ~[spring-aop-6.2.9.jar:6.2.9]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196) ~[spring-aop-6.2.9.jar:6.2.9]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-6.2.9.jar:6.2.9]
+	at org.springframework.aop.aspectj.AspectJAfterThrowingAdvice.invoke(AspectJAfterThrowingAdvice.java:64) ~[spring-aop-6.2.9.jar:6.2.9]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.9.jar:6.2.9]
+	at org.springframework.aop.framework.adapter.AfterReturningAdviceInterceptor.invoke(AfterReturningAdviceInterceptor.java:57) ~[spring-aop-6.2.9.jar:6.2.9]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.9.jar:6.2.9]
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58) ~[spring-aop-6.2.9.jar:6.2.9]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.9.jar:6.2.9]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97) ~[spring-aop-6.2.9.jar:6.2.9]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.9.jar:6.2.9]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:728) ~[spring-aop-6.2.9.jar:6.2.9]
+	at com.juandavyc.accounts.service.impl.AccountServiceImpl$$SpringCGLIB$$0.fetchAccountById(<generated>) ~[classes/:na]
+	at com.juandavyc.accounts.controller.AccountController.fetchAccount(AccountController.java:54) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:360) ~[spring-aop-6.2.9.jar:6.2.9]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196) ~[spring-aop-6.2.9.jar:6.2.9]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-6.2.9.jar:6.2.9]
+	at org.springframework.validation.beanvalidation.MethodValidationInterceptor.invoke(MethodValidationInterceptor.java:174) ~[spring-context-6.2.9.jar:6.2.9]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.9.jar:6.2.9]
+	at org.springframework.aop.aspectj.AspectJAfterThrowingAdvice.invoke(AspectJAfterThrowingAdvice.java:64) ~[spring-aop-6.2.9.jar:6.2.9]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.9.jar:6.2.9]
+	at org.springframework.aop.framework.adapter.AfterReturningAdviceInterceptor.invoke(AfterReturningAdviceInterceptor.java:57) ~[spring-aop-6.2.9.jar:6.2.9]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.9.jar:6.2.9]
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58) ~[spring-aop-6.2.9.jar:6.2.9]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.9.jar:6.2.9]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97) ~[spring-aop-6.2.9.jar:6.2.9]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.9.jar:6.2.9]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:728) ~[spring-aop-6.2.9.jar:6.2.9]
+	at com.juandavyc.accounts.controller.AccountController$$SpringCGLIB$$0.fetchAccount(<generated>) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.2.9.jar:6.2.9]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:991) ~[spring-webmvc-6.2.9.jar:6.2.9]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:896) ~[spring-webmvc-6.2.9.jar:6.2.9]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.2.9.jar:6.2.9]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.2.9.jar:6.2.9]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.2.9.jar:6.2.9]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.9.jar:6.2.9]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.2.9.jar:6.2.9]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.43.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.9.jar:6.2.9]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.43.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at com.juandavyc.accounts.config.MDCFilter.doFilter(MDCFilter.java:28) ~[classes/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:110) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1769) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+2025-08-29T00:21:25.528-05:00  WARN 101176 --- [accounts] [http-nio-8081-exec-9] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.juandavyc.accounts.exception.ResourceNotFoundException: Account not found for field id with value 33]
+2025-08-29T00:21:26.615-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-1] c.j.accounts.logging.loggingAspect       : Entering: AccountController.fetchAccount with arguments: [1]
+2025-08-29T00:21:26.615-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-1] c.j.accounts.logging.loggingAspect       : Entering: AccountServiceImpl.fetchAccountById with arguments: [1]
+2025-08-29T00:21:26.617-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-1] c.j.accounts.logging.loggingAspect       : Exiting: AccountServiceImpl.fetchAccountById with result: AccountResponseDto[id=1, username=kiko, email=kiko@aa.co, deleted=false, createdAt=2025-08-28T23:33:22.873169, updatedAt=null]
+2025-08-29T00:21:26.617-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-1] c.j.accounts.logging.loggingAspect       : Exiting: AccountController.fetchAccount with result: <200 OK OK,ResponseDto(code=200, status=200 OK, message=Request processed successfully, data=AccountResponseDto[id=1, username=kiko, email=kiko@aa.co, deleted=false, createdAt=2025-08-28T23:33:22.873169, updatedAt=null], timestamp=2025-08-29T00:21:26.617496663),[]>
+2025-08-29T00:21:27.154-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-10] c.j.accounts.logging.loggingAspect       : Entering: AccountController.existsByUsername with arguments: [kiko, null]
+2025-08-29T00:21:27.154-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-10] c.j.accounts.logging.loggingAspect       : Entering: AccountServiceImpl.existByUsername with arguments: [kiko]
+2025-08-29T00:21:27.157-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-2] c.j.accounts.logging.loggingAspect       : Entering: AccountController.existsByUsername with arguments: [kiko@aa.co, null]
+2025-08-29T00:21:27.158-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-10] c.j.accounts.logging.loggingAspect       : Exiting: AccountServiceImpl.existByUsername with result: true
+2025-08-29T00:21:27.158-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-2] c.j.accounts.logging.loggingAspect       : Entering: AccountServiceImpl.existByUsername with arguments: [kiko@aa.co]
+2025-08-29T00:21:27.158-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-10] c.j.accounts.logging.loggingAspect       : Exiting: AccountController.existsByUsername with result: <409 CONFLICT Conflict,ResponseDto(code=409, status=409 CONFLICT, message=Resource already exists, data=true, timestamp=2025-08-29T00:21:27.158311080),[]>
+2025-08-29T00:21:27.161-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-2] c.j.accounts.logging.loggingAspect       : Exiting: AccountServiceImpl.existByUsername with result: false
+2025-08-29T00:21:27.161-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-2] c.j.accounts.logging.loggingAspect       : Exiting: AccountController.existsByUsername with result: <200 OK OK,ResponseDto(code=200, status=200 OK, message=Resource is available, data=false, timestamp=2025-08-29T00:21:27.161233852),[]>
+2025-08-29T00:21:29.072-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-4] c.j.accounts.logging.loggingAspect       : Entering: AccountController.existsByUsername with arguments: [fgh, null]
+2025-08-29T00:21:29.072-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-4] c.j.accounts.logging.loggingAspect       : Entering: AccountServiceImpl.existByUsername with arguments: [fgh]
+2025-08-29T00:21:29.075-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-4] c.j.accounts.logging.loggingAspect       : Exiting: AccountServiceImpl.existByUsername with result: false
+2025-08-29T00:21:29.076-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-4] c.j.accounts.logging.loggingAspect       : Exiting: AccountController.existsByUsername with result: <200 OK OK,ResponseDto(code=200, status=200 OK, message=Resource is available, data=false, timestamp=2025-08-29T00:21:29.076218797),[]>
+2025-08-29T00:23:22.404-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-5] c.j.accounts.logging.loggingAspect       : Entering: AccountController.fetchAccount with arguments: [1]
+2025-08-29T00:23:22.404-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-5] c.j.accounts.logging.loggingAspect       : Entering: AccountServiceImpl.fetchAccountById with arguments: [1]
+2025-08-29T00:23:22.407-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-5] c.j.accounts.logging.loggingAspect       : Exiting: AccountServiceImpl.fetchAccountById with result: AccountResponseDto[id=1, username=kiko, email=kiko@aa.co, deleted=false, createdAt=2025-08-28T23:33:22.873169, updatedAt=null]
+2025-08-29T00:23:22.407-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-5] c.j.accounts.logging.loggingAspect       : Exiting: AccountController.fetchAccount with result: <200 OK OK,ResponseDto(code=200, status=200 OK, message=Request processed successfully, data=AccountResponseDto[id=1, username=kiko, email=kiko@aa.co, deleted=false, createdAt=2025-08-28T23:33:22.873169, updatedAt=null], timestamp=2025-08-29T00:23:22.407740268),[]>
+2025-08-29T00:23:24.273-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-7] c.j.accounts.logging.loggingAspect       : Entering: AccountController.existsByUsername with arguments: [kiko, null]
+2025-08-29T00:23:24.274-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-7] c.j.accounts.logging.loggingAspect       : Entering: AccountServiceImpl.existByUsername with arguments: [kiko]
+2025-08-29T00:23:24.278-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-7] c.j.accounts.logging.loggingAspect       : Exiting: AccountServiceImpl.existByUsername with result: true
+2025-08-29T00:23:24.278-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-7] c.j.accounts.logging.loggingAspect       : Exiting: AccountController.existsByUsername with result: <409 CONFLICT Conflict,ResponseDto(code=409, status=409 CONFLICT, message=Resource already exists, data=true, timestamp=2025-08-29T00:23:24.278211042),[]>
+2025-08-29T00:23:30.993-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-8] c.j.accounts.logging.loggingAspect       : Entering: AccountController.fetchAccount with arguments: [1]
+2025-08-29T00:23:30.993-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-8] c.j.accounts.logging.loggingAspect       : Entering: AccountServiceImpl.fetchAccountById with arguments: [1]
+2025-08-29T00:23:30.995-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-8] c.j.accounts.logging.loggingAspect       : Exiting: AccountServiceImpl.fetchAccountById with result: AccountResponseDto[id=1, username=kiko, email=kiko@aa.co, deleted=false, createdAt=2025-08-28T23:33:22.873169, updatedAt=null]
+2025-08-29T00:23:30.995-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-8] c.j.accounts.logging.loggingAspect       : Exiting: AccountController.fetchAccount with result: <200 OK OK,ResponseDto(code=200, status=200 OK, message=Request processed successfully, data=AccountResponseDto[id=1, username=kiko, email=kiko@aa.co, deleted=false, createdAt=2025-08-28T23:33:22.873169, updatedAt=null], timestamp=2025-08-29T00:23:30.995258468),[]>
+2025-08-29T00:23:36.525-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-9] c.j.accounts.logging.loggingAspect       : Entering: AccountController.fetchAccount with arguments: [1]
+2025-08-29T00:23:36.525-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-9] c.j.accounts.logging.loggingAspect       : Entering: AccountServiceImpl.fetchAccountById with arguments: [1]
+2025-08-29T00:23:36.527-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-9] c.j.accounts.logging.loggingAspect       : Exiting: AccountServiceImpl.fetchAccountById with result: AccountResponseDto[id=1, username=kiko, email=kiko@aa.co, deleted=false, createdAt=2025-08-28T23:33:22.873169, updatedAt=null]
+2025-08-29T00:23:36.527-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-9] c.j.accounts.logging.loggingAspect       : Exiting: AccountController.fetchAccount with result: <200 OK OK,ResponseDto(code=200, status=200 OK, message=Request processed successfully, data=AccountResponseDto[id=1, username=kiko, email=kiko@aa.co, deleted=false, createdAt=2025-08-28T23:33:22.873169, updatedAt=null], timestamp=2025-08-29T00:23:36.527096187),[]>
+2025-08-29T00:23:38.521-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-1] c.j.accounts.logging.loggingAspect       : Entering: AccountController.fetchAccount with arguments: [2]
+2025-08-29T00:23:38.521-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-1] c.j.accounts.logging.loggingAspect       : Entering: AccountServiceImpl.fetchAccountById with arguments: [2]
+2025-08-29T00:23:38.523-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-1] c.j.accounts.logging.loggingAspect       : Exiting: AccountServiceImpl.fetchAccountById with result: AccountResponseDto[id=2, username=kik1, email=kik2o@aa.co, deleted=false, createdAt=2025-08-28T23:43:38.386622, updatedAt=null]
+2025-08-29T00:23:38.523-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-1] c.j.accounts.logging.loggingAspect       : Exiting: AccountController.fetchAccount with result: <200 OK OK,ResponseDto(code=200, status=200 OK, message=Request processed successfully, data=AccountResponseDto[id=2, username=kik1, email=kik2o@aa.co, deleted=false, createdAt=2025-08-28T23:43:38.386622, updatedAt=null], timestamp=2025-08-29T00:23:38.523895453),[]>
+2025-08-29T00:23:40.935-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-10] c.j.accounts.logging.loggingAspect       : Entering: AccountController.fetchAccount with arguments: [1]
+2025-08-29T00:23:40.935-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-10] c.j.accounts.logging.loggingAspect       : Entering: AccountServiceImpl.fetchAccountById with arguments: [1]
+2025-08-29T00:23:40.937-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-10] c.j.accounts.logging.loggingAspect       : Exiting: AccountServiceImpl.fetchAccountById with result: AccountResponseDto[id=1, username=kiko, email=kiko@aa.co, deleted=false, createdAt=2025-08-28T23:33:22.873169, updatedAt=null]
+2025-08-29T00:23:40.937-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-10] c.j.accounts.logging.loggingAspect       : Exiting: AccountController.fetchAccount with result: <200 OK OK,ResponseDto(code=200, status=200 OK, message=Request processed successfully, data=AccountResponseDto[id=1, username=kiko, email=kiko@aa.co, deleted=false, createdAt=2025-08-28T23:33:22.873169, updatedAt=null], timestamp=2025-08-29T00:23:40.937117839),[]>
+2025-08-29T00:23:44.410-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-2] c.j.accounts.logging.loggingAspect       : Entering: AccountController.fetchAccount with arguments: [2]
+2025-08-29T00:23:44.411-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-2] c.j.accounts.logging.loggingAspect       : Entering: AccountServiceImpl.fetchAccountById with arguments: [2]
+2025-08-29T00:23:44.413-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-2] c.j.accounts.logging.loggingAspect       : Exiting: AccountServiceImpl.fetchAccountById with result: AccountResponseDto[id=2, username=kik1, email=kik2o@aa.co, deleted=false, createdAt=2025-08-28T23:43:38.386622, updatedAt=null]
+2025-08-29T00:23:44.413-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-2] c.j.accounts.logging.loggingAspect       : Exiting: AccountController.fetchAccount with result: <200 OK OK,ResponseDto(code=200, status=200 OK, message=Request processed successfully, data=AccountResponseDto[id=2, username=kik1, email=kik2o@aa.co, deleted=false, createdAt=2025-08-28T23:43:38.386622, updatedAt=null], timestamp=2025-08-29T00:23:44.413157517),[]>
+2025-08-29T00:23:48.593-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-4] c.j.accounts.logging.loggingAspect       : Entering: AccountController.existsByUsername with arguments: [kiko, null]
+2025-08-29T00:23:48.593-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-4] c.j.accounts.logging.loggingAspect       : Entering: AccountServiceImpl.existByUsername with arguments: [kiko]
+2025-08-29T00:23:48.594-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-4] c.j.accounts.logging.loggingAspect       : Exiting: AccountServiceImpl.existByUsername with result: true
+2025-08-29T00:23:48.594-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-4] c.j.accounts.logging.loggingAspect       : Exiting: AccountController.existsByUsername with result: <409 CONFLICT Conflict,ResponseDto(code=409, status=409 CONFLICT, message=Resource already exists, data=true, timestamp=2025-08-29T00:23:48.594703986),[]>
+2025-08-29T00:23:54.916-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-3] c.j.accounts.logging.loggingAspect       : Entering: AccountController.fetchAccount with arguments: [1]
+2025-08-29T00:23:54.916-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-3] c.j.accounts.logging.loggingAspect       : Entering: AccountServiceImpl.fetchAccountById with arguments: [1]
+2025-08-29T00:23:54.920-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-3] c.j.accounts.logging.loggingAspect       : Exiting: AccountServiceImpl.fetchAccountById with result: AccountResponseDto[id=1, username=kiko, email=kiko@aa.co, deleted=false, createdAt=2025-08-28T23:33:22.873169, updatedAt=null]
+2025-08-29T00:23:54.920-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-3] c.j.accounts.logging.loggingAspect       : Exiting: AccountController.fetchAccount with result: <200 OK OK,ResponseDto(code=200, status=200 OK, message=Request processed successfully, data=AccountResponseDto[id=1, username=kiko, email=kiko@aa.co, deleted=false, createdAt=2025-08-28T23:33:22.873169, updatedAt=null], timestamp=2025-08-29T00:23:54.920695753),[]>
+2025-08-29T00:23:55.653-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-6] c.j.accounts.logging.loggingAspect       : Entering: AccountController.fetchAccount with arguments: [2]
+2025-08-29T00:23:55.654-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-6] c.j.accounts.logging.loggingAspect       : Entering: AccountServiceImpl.fetchAccountById with arguments: [2]
+2025-08-29T00:23:55.655-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-6] c.j.accounts.logging.loggingAspect       : Exiting: AccountServiceImpl.fetchAccountById with result: AccountResponseDto[id=2, username=kik1, email=kik2o@aa.co, deleted=false, createdAt=2025-08-28T23:43:38.386622, updatedAt=null]
+2025-08-29T00:23:55.655-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-6] c.j.accounts.logging.loggingAspect       : Exiting: AccountController.fetchAccount with result: <200 OK OK,ResponseDto(code=200, status=200 OK, message=Request processed successfully, data=AccountResponseDto[id=2, username=kik1, email=kik2o@aa.co, deleted=false, createdAt=2025-08-28T23:43:38.386622, updatedAt=null], timestamp=2025-08-29T00:23:55.655509779),[]>
+2025-08-29T00:24:14.310-05:00  INFO 101176 --- [accounts] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-08-29T00:29:14.311-05:00  INFO 101176 --- [accounts] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-08-29T00:29:39.828-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-7] c.j.accounts.logging.loggingAspect       : Entering: AccountController.fetchAccount with arguments: [2]
+2025-08-29T00:29:39.828-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-7] c.j.accounts.logging.loggingAspect       : Entering: AccountServiceImpl.fetchAccountById with arguments: [2]
+2025-08-29T00:29:39.833-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-7] c.j.accounts.logging.loggingAspect       : Exiting: AccountServiceImpl.fetchAccountById with result: AccountResponseDto[id=2, username=kik1, email=kik2o@aa.co, deleted=false, createdAt=2025-08-28T23:43:38.386622, updatedAt=null]
+2025-08-29T00:29:39.833-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-7] c.j.accounts.logging.loggingAspect       : Exiting: AccountController.fetchAccount with result: <200 OK OK,ResponseDto(code=200, status=200 OK, message=Request processed successfully, data=AccountResponseDto[id=2, username=kik1, email=kik2o@aa.co, deleted=false, createdAt=2025-08-28T23:43:38.386622, updatedAt=null], timestamp=2025-08-29T00:29:39.833655861),[]>
+2025-08-29T00:34:14.312-05:00  INFO 101176 --- [accounts] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-08-29T00:37:15.959-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-9] c.j.accounts.logging.loggingAspect       : Entering: AccountController.fetchAccount with arguments: [2]
+2025-08-29T00:37:15.959-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-9] c.j.accounts.logging.loggingAspect       : Entering: AccountServiceImpl.fetchAccountById with arguments: [2]
+2025-08-29T00:37:15.961-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-9] c.j.accounts.logging.loggingAspect       : Exiting: AccountServiceImpl.fetchAccountById with result: AccountResponseDto[id=2, username=kik1, email=kik2o@aa.co, deleted=false, createdAt=2025-08-28T23:43:38.386622, updatedAt=null]
+2025-08-29T00:37:15.961-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-9] c.j.accounts.logging.loggingAspect       : Exiting: AccountController.fetchAccount with result: <200 OK OK,ResponseDto(code=200, status=200 OK, message=Request processed successfully, data=AccountResponseDto[id=2, username=kik1, email=kik2o@aa.co, deleted=false, createdAt=2025-08-28T23:43:38.386622, updatedAt=null], timestamp=2025-08-29T00:37:15.961821657),[]>
+2025-08-29T00:37:24.521-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-1] c.j.accounts.logging.loggingAspect       : Entering: AccountController.fetchAccount with arguments: [2]
+2025-08-29T00:37:24.521-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-1] c.j.accounts.logging.loggingAspect       : Entering: AccountServiceImpl.fetchAccountById with arguments: [2]
+2025-08-29T00:37:24.523-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-1] c.j.accounts.logging.loggingAspect       : Exiting: AccountServiceImpl.fetchAccountById with result: AccountResponseDto[id=2, username=kik1, email=kik2o@aa.co, deleted=false, createdAt=2025-08-28T23:43:38.386622, updatedAt=null]
+2025-08-29T00:37:24.524-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-1] c.j.accounts.logging.loggingAspect       : Exiting: AccountController.fetchAccount with result: <200 OK OK,ResponseDto(code=200, status=200 OK, message=Request processed successfully, data=AccountResponseDto[id=2, username=kik1, email=kik2o@aa.co, deleted=false, createdAt=2025-08-28T23:43:38.386622, updatedAt=null], timestamp=2025-08-29T00:37:24.523966104),[]>
+2025-08-29T00:37:28.090-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-10] c.j.accounts.logging.loggingAspect       : Entering: AccountController.fetchAccount with arguments: [1]
+2025-08-29T00:37:28.090-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-10] c.j.accounts.logging.loggingAspect       : Entering: AccountServiceImpl.fetchAccountById with arguments: [1]
+2025-08-29T00:37:28.092-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-10] c.j.accounts.logging.loggingAspect       : Exiting: AccountServiceImpl.fetchAccountById with result: AccountResponseDto[id=1, username=kiko, email=kiko@aa.co, deleted=false, createdAt=2025-08-28T23:33:22.873169, updatedAt=null]
+2025-08-29T00:37:28.092-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-10] c.j.accounts.logging.loggingAspect       : Exiting: AccountController.fetchAccount with result: <200 OK OK,ResponseDto(code=200, status=200 OK, message=Request processed successfully, data=AccountResponseDto[id=1, username=kiko, email=kiko@aa.co, deleted=false, createdAt=2025-08-28T23:33:22.873169, updatedAt=null], timestamp=2025-08-29T00:37:28.092701830),[]>
+2025-08-29T00:37:29.448-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-2] c.j.accounts.logging.loggingAspect       : Entering: AccountController.fetchAccount with arguments: [2]
+2025-08-29T00:37:29.448-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-2] c.j.accounts.logging.loggingAspect       : Entering: AccountServiceImpl.fetchAccountById with arguments: [2]
+2025-08-29T00:37:29.449-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-2] c.j.accounts.logging.loggingAspect       : Exiting: AccountServiceImpl.fetchAccountById with result: AccountResponseDto[id=2, username=kik1, email=kik2o@aa.co, deleted=false, createdAt=2025-08-28T23:43:38.386622, updatedAt=null]
+2025-08-29T00:37:29.450-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-2] c.j.accounts.logging.loggingAspect       : Exiting: AccountController.fetchAccount with result: <200 OK OK,ResponseDto(code=200, status=200 OK, message=Request processed successfully, data=AccountResponseDto[id=2, username=kik1, email=kik2o@aa.co, deleted=false, createdAt=2025-08-28T23:43:38.386622, updatedAt=null], timestamp=2025-08-29T00:37:29.450054772),[]>
+2025-08-29T00:38:37.006-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-3] c.j.accounts.logging.loggingAspect       : Entering: AccountController.fetchAccount with arguments: [2]
+2025-08-29T00:38:37.006-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-3] c.j.accounts.logging.loggingAspect       : Entering: AccountServiceImpl.fetchAccountById with arguments: [2]
+2025-08-29T00:38:37.007-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-3] c.j.accounts.logging.loggingAspect       : Exiting: AccountServiceImpl.fetchAccountById with result: AccountResponseDto[id=2, username=kik1, email=kik2o@aa.co, deleted=false, createdAt=2025-08-28T23:43:38.386622, updatedAt=null]
+2025-08-29T00:38:37.007-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-3] c.j.accounts.logging.loggingAspect       : Exiting: AccountController.fetchAccount with result: <200 OK OK,ResponseDto(code=200, status=200 OK, message=Request processed successfully, data=AccountResponseDto[id=2, username=kik1, email=kik2o@aa.co, deleted=false, createdAt=2025-08-28T23:43:38.386622, updatedAt=null], timestamp=2025-08-29T00:38:37.007873077),[]>
+2025-08-29T00:38:43.030-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-6] c.j.accounts.logging.loggingAspect       : Entering: AccountController.fetchAccount with arguments: [2]
+2025-08-29T00:38:43.030-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-6] c.j.accounts.logging.loggingAspect       : Entering: AccountServiceImpl.fetchAccountById with arguments: [2]
+2025-08-29T00:38:43.031-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-6] c.j.accounts.logging.loggingAspect       : Exiting: AccountServiceImpl.fetchAccountById with result: AccountResponseDto[id=2, username=kik1, email=kik2o@aa.co, deleted=false, createdAt=2025-08-28T23:43:38.386622, updatedAt=null]
+2025-08-29T00:38:43.031-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-6] c.j.accounts.logging.loggingAspect       : Exiting: AccountController.fetchAccount with result: <200 OK OK,ResponseDto(code=200, status=200 OK, message=Request processed successfully, data=AccountResponseDto[id=2, username=kik1, email=kik2o@aa.co, deleted=false, createdAt=2025-08-28T23:43:38.386622, updatedAt=null], timestamp=2025-08-29T00:38:43.031890735),[]>
+2025-08-29T00:38:51.198-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-5] c.j.accounts.logging.loggingAspect       : Entering: AccountController.fetchAccount with arguments: [1]
+2025-08-29T00:38:51.198-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-5] c.j.accounts.logging.loggingAspect       : Entering: AccountServiceImpl.fetchAccountById with arguments: [1]
+2025-08-29T00:38:51.200-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-5] c.j.accounts.logging.loggingAspect       : Exiting: AccountServiceImpl.fetchAccountById with result: AccountResponseDto[id=1, username=kiko, email=kiko@aa.co, deleted=false, createdAt=2025-08-28T23:33:22.873169, updatedAt=null]
+2025-08-29T00:38:51.201-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-5] c.j.accounts.logging.loggingAspect       : Exiting: AccountController.fetchAccount with result: <200 OK OK,ResponseDto(code=200, status=200 OK, message=Request processed successfully, data=AccountResponseDto[id=1, username=kiko, email=kiko@aa.co, deleted=false, createdAt=2025-08-28T23:33:22.873169, updatedAt=null], timestamp=2025-08-29T00:38:51.201122368),[]>
+2025-08-29T00:38:52.624-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-7] c.j.accounts.logging.loggingAspect       : Entering: AccountController.fetchAccount with arguments: [2]
+2025-08-29T00:38:52.624-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-7] c.j.accounts.logging.loggingAspect       : Entering: AccountServiceImpl.fetchAccountById with arguments: [2]
+2025-08-29T00:38:52.626-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-7] c.j.accounts.logging.loggingAspect       : Exiting: AccountServiceImpl.fetchAccountById with result: AccountResponseDto[id=2, username=kik1, email=kik2o@aa.co, deleted=false, createdAt=2025-08-28T23:43:38.386622, updatedAt=null]
+2025-08-29T00:38:52.626-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-7] c.j.accounts.logging.loggingAspect       : Exiting: AccountController.fetchAccount with result: <200 OK OK,ResponseDto(code=200, status=200 OK, message=Request processed successfully, data=AccountResponseDto[id=2, username=kik1, email=kik2o@aa.co, deleted=false, createdAt=2025-08-28T23:43:38.386622, updatedAt=null], timestamp=2025-08-29T00:38:52.626214222),[]>
+2025-08-29T00:38:59.194-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-8] c.j.accounts.logging.loggingAspect       : Entering: AccountController.existsByUsername with arguments: [kiko, null]
+2025-08-29T00:38:59.194-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-8] c.j.accounts.logging.loggingAspect       : Entering: AccountServiceImpl.existByUsername with arguments: [kiko]
+2025-08-29T00:38:59.196-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-8] c.j.accounts.logging.loggingAspect       : Exiting: AccountServiceImpl.existByUsername with result: true
+2025-08-29T00:38:59.197-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-8] c.j.accounts.logging.loggingAspect       : Exiting: AccountController.existsByUsername with result: <409 CONFLICT Conflict,ResponseDto(code=409, status=409 CONFLICT, message=Resource already exists, data=true, timestamp=2025-08-29T00:38:59.196913409),[]>
+2025-08-29T00:39:03.141-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-9] c.j.accounts.logging.loggingAspect       : Entering: AccountController.existsByUsername with arguments: [kikq, null]
+2025-08-29T00:39:03.142-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-9] c.j.accounts.logging.loggingAspect       : Entering: AccountServiceImpl.existByUsername with arguments: [kikq]
+2025-08-29T00:39:03.143-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-9] c.j.accounts.logging.loggingAspect       : Exiting: AccountServiceImpl.existByUsername with result: false
+2025-08-29T00:39:03.144-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-9] c.j.accounts.logging.loggingAspect       : Exiting: AccountController.existsByUsername with result: <200 OK OK,ResponseDto(code=200, status=200 OK, message=Resource is available, data=false, timestamp=2025-08-29T00:39:03.144083187),[]>
+2025-08-29T00:39:14.312-05:00  INFO 101176 --- [accounts] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-08-29T00:43:29.170-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-10] c.j.accounts.logging.loggingAspect       : Entering: AccountController.fetchAccount with arguments: [2]
+2025-08-29T00:43:29.170-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-10] c.j.accounts.logging.loggingAspect       : Entering: AccountServiceImpl.fetchAccountById with arguments: [2]
+2025-08-29T00:43:29.173-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-10] c.j.accounts.logging.loggingAspect       : Exiting: AccountServiceImpl.fetchAccountById with result: AccountResponseDto[id=2, username=kik1, email=kik2o@aa.co, deleted=false, createdAt=2025-08-28T23:43:38.386622, updatedAt=null]
+2025-08-29T00:43:29.173-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-10] c.j.accounts.logging.loggingAspect       : Exiting: AccountController.fetchAccount with result: <200 OK OK,ResponseDto(code=200, status=200 OK, message=Request processed successfully, data=AccountResponseDto[id=2, username=kik1, email=kik2o@aa.co, deleted=false, createdAt=2025-08-28T23:43:38.386622, updatedAt=null], timestamp=2025-08-29T00:43:29.173259712),[]>
+2025-08-29T00:43:36.001-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-2] c.j.accounts.logging.loggingAspect       : Entering: AccountController.fetchAccount with arguments: [2]
+2025-08-29T00:43:36.001-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-2] c.j.accounts.logging.loggingAspect       : Entering: AccountServiceImpl.fetchAccountById with arguments: [2]
+2025-08-29T00:43:36.002-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-2] c.j.accounts.logging.loggingAspect       : Exiting: AccountServiceImpl.fetchAccountById with result: AccountResponseDto[id=2, username=kik1, email=kik2o@aa.co, deleted=false, createdAt=2025-08-28T23:43:38.386622, updatedAt=null]
+2025-08-29T00:43:36.002-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-2] c.j.accounts.logging.loggingAspect       : Exiting: AccountController.fetchAccount with result: <200 OK OK,ResponseDto(code=200, status=200 OK, message=Request processed successfully, data=AccountResponseDto[id=2, username=kik1, email=kik2o@aa.co, deleted=false, createdAt=2025-08-28T23:43:38.386622, updatedAt=null], timestamp=2025-08-29T00:43:36.002868281),[]>
+2025-08-29T00:43:38.903-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-4] c.j.accounts.logging.loggingAspect       : Entering: AccountController.fetchAccount with arguments: [2]
+2025-08-29T00:43:38.903-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-4] c.j.accounts.logging.loggingAspect       : Entering: AccountServiceImpl.fetchAccountById with arguments: [2]
+2025-08-29T00:43:38.905-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-4] c.j.accounts.logging.loggingAspect       : Exiting: AccountServiceImpl.fetchAccountById with result: AccountResponseDto[id=2, username=kik1, email=kik2o@aa.co, deleted=false, createdAt=2025-08-28T23:43:38.386622, updatedAt=null]
+2025-08-29T00:43:38.905-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-4] c.j.accounts.logging.loggingAspect       : Exiting: AccountController.fetchAccount with result: <200 OK OK,ResponseDto(code=200, status=200 OK, message=Request processed successfully, data=AccountResponseDto[id=2, username=kik1, email=kik2o@aa.co, deleted=false, createdAt=2025-08-28T23:43:38.386622, updatedAt=null], timestamp=2025-08-29T00:43:38.905137272),[]>
+2025-08-29T00:43:40.884-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-3] c.j.accounts.logging.loggingAspect       : Entering: AccountController.fetchAccount with arguments: [2]
+2025-08-29T00:43:40.885-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-3] c.j.accounts.logging.loggingAspect       : Entering: AccountServiceImpl.fetchAccountById with arguments: [2]
+2025-08-29T00:43:40.886-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-3] c.j.accounts.logging.loggingAspect       : Exiting: AccountServiceImpl.fetchAccountById with result: AccountResponseDto[id=2, username=kik1, email=kik2o@aa.co, deleted=false, createdAt=2025-08-28T23:43:38.386622, updatedAt=null]
+2025-08-29T00:43:40.886-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-3] c.j.accounts.logging.loggingAspect       : Exiting: AccountController.fetchAccount with result: <200 OK OK,ResponseDto(code=200, status=200 OK, message=Request processed successfully, data=AccountResponseDto[id=2, username=kik1, email=kik2o@aa.co, deleted=false, createdAt=2025-08-28T23:43:38.386622, updatedAt=null], timestamp=2025-08-29T00:43:40.886620027),[]>
+2025-08-29T00:43:43.030-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-6] c.j.accounts.logging.loggingAspect       : Entering: AccountController.fetchAccount with arguments: [1]
+2025-08-29T00:43:43.030-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-6] c.j.accounts.logging.loggingAspect       : Entering: AccountServiceImpl.fetchAccountById with arguments: [1]
+2025-08-29T00:43:43.032-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-6] c.j.accounts.logging.loggingAspect       : Exiting: AccountServiceImpl.fetchAccountById with result: AccountResponseDto[id=1, username=kiko, email=kiko@aa.co, deleted=false, createdAt=2025-08-28T23:33:22.873169, updatedAt=null]
+2025-08-29T00:43:43.032-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-6] c.j.accounts.logging.loggingAspect       : Exiting: AccountController.fetchAccount with result: <200 OK OK,ResponseDto(code=200, status=200 OK, message=Request processed successfully, data=AccountResponseDto[id=1, username=kiko, email=kiko@aa.co, deleted=false, createdAt=2025-08-28T23:33:22.873169, updatedAt=null], timestamp=2025-08-29T00:43:43.032885012),[]>
+2025-08-29T00:43:43.850-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-5] c.j.accounts.logging.loggingAspect       : Entering: AccountController.fetchAccount with arguments: [33]
+2025-08-29T00:43:43.851-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-5] c.j.accounts.logging.loggingAspect       : Entering: AccountServiceImpl.fetchAccountById with arguments: [33]
+2025-08-29T00:43:43.854-05:00 ERROR 101176 --- [accounts] [http-nio-8081-exec-5] c.j.accounts.logging.loggingAspect       : Exception in: AccountServiceImpl.fetchAccountById -> Account not found for field id with value 33
+
+com.juandavyc.accounts.exception.ResourceNotFoundException: Account not found for field id with value 33
+	at com.juandavyc.accounts.service.impl.AccountServiceImpl.lambda$fetchAccountById$0(AccountServiceImpl.java:53) ~[classes/:na]
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403) ~[na:na]
+	at com.juandavyc.accounts.service.impl.AccountServiceImpl.fetchAccountById(AccountServiceImpl.java:53) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:360) ~[spring-aop-6.2.9.jar:6.2.9]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196) ~[spring-aop-6.2.9.jar:6.2.9]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-6.2.9.jar:6.2.9]
+	at org.springframework.aop.aspectj.AspectJAfterThrowingAdvice.invoke(AspectJAfterThrowingAdvice.java:64) ~[spring-aop-6.2.9.jar:6.2.9]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.9.jar:6.2.9]
+	at org.springframework.aop.framework.adapter.AfterReturningAdviceInterceptor.invoke(AfterReturningAdviceInterceptor.java:57) ~[spring-aop-6.2.9.jar:6.2.9]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.9.jar:6.2.9]
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58) ~[spring-aop-6.2.9.jar:6.2.9]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.9.jar:6.2.9]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97) ~[spring-aop-6.2.9.jar:6.2.9]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.9.jar:6.2.9]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:728) ~[spring-aop-6.2.9.jar:6.2.9]
+	at com.juandavyc.accounts.service.impl.AccountServiceImpl$$SpringCGLIB$$0.fetchAccountById(<generated>) ~[classes/:na]
+	at com.juandavyc.accounts.controller.AccountController.fetchAccount(AccountController.java:54) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:360) ~[spring-aop-6.2.9.jar:6.2.9]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196) ~[spring-aop-6.2.9.jar:6.2.9]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-6.2.9.jar:6.2.9]
+	at org.springframework.validation.beanvalidation.MethodValidationInterceptor.invoke(MethodValidationInterceptor.java:174) ~[spring-context-6.2.9.jar:6.2.9]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.9.jar:6.2.9]
+	at org.springframework.aop.aspectj.AspectJAfterThrowingAdvice.invoke(AspectJAfterThrowingAdvice.java:64) ~[spring-aop-6.2.9.jar:6.2.9]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.9.jar:6.2.9]
+	at org.springframework.aop.framework.adapter.AfterReturningAdviceInterceptor.invoke(AfterReturningAdviceInterceptor.java:57) ~[spring-aop-6.2.9.jar:6.2.9]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.9.jar:6.2.9]
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58) ~[spring-aop-6.2.9.jar:6.2.9]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.9.jar:6.2.9]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97) ~[spring-aop-6.2.9.jar:6.2.9]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.9.jar:6.2.9]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:728) ~[spring-aop-6.2.9.jar:6.2.9]
+	at com.juandavyc.accounts.controller.AccountController$$SpringCGLIB$$0.fetchAccount(<generated>) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.2.9.jar:6.2.9]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:991) ~[spring-webmvc-6.2.9.jar:6.2.9]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:896) ~[spring-webmvc-6.2.9.jar:6.2.9]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.2.9.jar:6.2.9]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.2.9.jar:6.2.9]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.2.9.jar:6.2.9]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.9.jar:6.2.9]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.2.9.jar:6.2.9]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.43.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.9.jar:6.2.9]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.43.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at com.juandavyc.accounts.config.MDCFilter.doFilter(MDCFilter.java:28) ~[classes/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:110) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1769) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+2025-08-29T00:43:43.857-05:00 ERROR 101176 --- [accounts] [http-nio-8081-exec-5] c.j.accounts.logging.loggingAspect       : Exception in: AccountController.fetchAccount -> Account not found for field id with value 33
+
+com.juandavyc.accounts.exception.ResourceNotFoundException: Account not found for field id with value 33
+	at com.juandavyc.accounts.service.impl.AccountServiceImpl.lambda$fetchAccountById$0(AccountServiceImpl.java:53) ~[classes/:na]
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403) ~[na:na]
+	at com.juandavyc.accounts.service.impl.AccountServiceImpl.fetchAccountById(AccountServiceImpl.java:53) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:360) ~[spring-aop-6.2.9.jar:6.2.9]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196) ~[spring-aop-6.2.9.jar:6.2.9]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-6.2.9.jar:6.2.9]
+	at org.springframework.aop.aspectj.AspectJAfterThrowingAdvice.invoke(AspectJAfterThrowingAdvice.java:64) ~[spring-aop-6.2.9.jar:6.2.9]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.9.jar:6.2.9]
+	at org.springframework.aop.framework.adapter.AfterReturningAdviceInterceptor.invoke(AfterReturningAdviceInterceptor.java:57) ~[spring-aop-6.2.9.jar:6.2.9]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.9.jar:6.2.9]
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58) ~[spring-aop-6.2.9.jar:6.2.9]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.9.jar:6.2.9]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97) ~[spring-aop-6.2.9.jar:6.2.9]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.9.jar:6.2.9]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:728) ~[spring-aop-6.2.9.jar:6.2.9]
+	at com.juandavyc.accounts.service.impl.AccountServiceImpl$$SpringCGLIB$$0.fetchAccountById(<generated>) ~[classes/:na]
+	at com.juandavyc.accounts.controller.AccountController.fetchAccount(AccountController.java:54) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:360) ~[spring-aop-6.2.9.jar:6.2.9]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196) ~[spring-aop-6.2.9.jar:6.2.9]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-6.2.9.jar:6.2.9]
+	at org.springframework.validation.beanvalidation.MethodValidationInterceptor.invoke(MethodValidationInterceptor.java:174) ~[spring-context-6.2.9.jar:6.2.9]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.9.jar:6.2.9]
+	at org.springframework.aop.aspectj.AspectJAfterThrowingAdvice.invoke(AspectJAfterThrowingAdvice.java:64) ~[spring-aop-6.2.9.jar:6.2.9]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.9.jar:6.2.9]
+	at org.springframework.aop.framework.adapter.AfterReturningAdviceInterceptor.invoke(AfterReturningAdviceInterceptor.java:57) ~[spring-aop-6.2.9.jar:6.2.9]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.9.jar:6.2.9]
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58) ~[spring-aop-6.2.9.jar:6.2.9]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.9.jar:6.2.9]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97) ~[spring-aop-6.2.9.jar:6.2.9]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.9.jar:6.2.9]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:728) ~[spring-aop-6.2.9.jar:6.2.9]
+	at com.juandavyc.accounts.controller.AccountController$$SpringCGLIB$$0.fetchAccount(<generated>) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.2.9.jar:6.2.9]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:991) ~[spring-webmvc-6.2.9.jar:6.2.9]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:896) ~[spring-webmvc-6.2.9.jar:6.2.9]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.2.9.jar:6.2.9]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.2.9.jar:6.2.9]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.2.9.jar:6.2.9]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.9.jar:6.2.9]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.2.9.jar:6.2.9]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.43.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.9.jar:6.2.9]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.43.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at com.juandavyc.accounts.config.MDCFilter.doFilter(MDCFilter.java:28) ~[classes/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:110) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1769) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+2025-08-29T00:43:43.863-05:00  WARN 101176 --- [accounts] [http-nio-8081-exec-5] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.juandavyc.accounts.exception.ResourceNotFoundException: Account not found for field id with value 33]
+2025-08-29T00:43:46.005-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-7] c.j.accounts.logging.loggingAspect       : Entering: AccountController.fetchAccount with arguments: [1]
+2025-08-29T00:43:46.005-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-7] c.j.accounts.logging.loggingAspect       : Entering: AccountServiceImpl.fetchAccountById with arguments: [1]
+2025-08-29T00:43:46.007-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-7] c.j.accounts.logging.loggingAspect       : Exiting: AccountServiceImpl.fetchAccountById with result: AccountResponseDto[id=1, username=kiko, email=kiko@aa.co, deleted=false, createdAt=2025-08-28T23:33:22.873169, updatedAt=null]
+2025-08-29T00:43:46.007-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-7] c.j.accounts.logging.loggingAspect       : Exiting: AccountController.fetchAccount with result: <200 OK OK,ResponseDto(code=200, status=200 OK, message=Request processed successfully, data=AccountResponseDto[id=1, username=kiko, email=kiko@aa.co, deleted=false, createdAt=2025-08-28T23:33:22.873169, updatedAt=null], timestamp=2025-08-29T00:43:46.007385915),[]>
+2025-08-29T00:43:46.626-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-8] c.j.accounts.logging.loggingAspect       : Entering: AccountController.fetchAccount with arguments: [2]
+2025-08-29T00:43:46.627-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-8] c.j.accounts.logging.loggingAspect       : Entering: AccountServiceImpl.fetchAccountById with arguments: [2]
+2025-08-29T00:43:46.631-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-8] c.j.accounts.logging.loggingAspect       : Exiting: AccountServiceImpl.fetchAccountById with result: AccountResponseDto[id=2, username=kik1, email=kik2o@aa.co, deleted=false, createdAt=2025-08-28T23:43:38.386622, updatedAt=null]
+2025-08-29T00:43:46.631-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-8] c.j.accounts.logging.loggingAspect       : Exiting: AccountController.fetchAccount with result: <200 OK OK,ResponseDto(code=200, status=200 OK, message=Request processed successfully, data=AccountResponseDto[id=2, username=kik1, email=kik2o@aa.co, deleted=false, createdAt=2025-08-28T23:43:38.386622, updatedAt=null], timestamp=2025-08-29T00:43:46.631356530),[]>
+2025-08-29T00:43:52.259-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-9] c.j.accounts.logging.loggingAspect       : Entering: AccountController.fetchAccount with arguments: [2]
+2025-08-29T00:43:52.260-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-9] c.j.accounts.logging.loggingAspect       : Entering: AccountServiceImpl.fetchAccountById with arguments: [2]
+2025-08-29T00:43:52.262-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-9] c.j.accounts.logging.loggingAspect       : Exiting: AccountServiceImpl.fetchAccountById with result: AccountResponseDto[id=2, username=kik1, email=kik2o@aa.co, deleted=false, createdAt=2025-08-28T23:43:38.386622, updatedAt=null]
+2025-08-29T00:43:52.262-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-9] c.j.accounts.logging.loggingAspect       : Exiting: AccountController.fetchAccount with result: <200 OK OK,ResponseDto(code=200, status=200 OK, message=Request processed successfully, data=AccountResponseDto[id=2, username=kik1, email=kik2o@aa.co, deleted=false, createdAt=2025-08-28T23:43:38.386622, updatedAt=null], timestamp=2025-08-29T00:43:52.262184521),[]>
+2025-08-29T00:44:04.599-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-1] c.j.accounts.logging.loggingAspect       : Entering: AccountController.fetchAccount with arguments: [2]
+2025-08-29T00:44:04.599-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-1] c.j.accounts.logging.loggingAspect       : Entering: AccountServiceImpl.fetchAccountById with arguments: [2]
+2025-08-29T00:44:04.601-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-1] c.j.accounts.logging.loggingAspect       : Exiting: AccountServiceImpl.fetchAccountById with result: AccountResponseDto[id=2, username=kik1, email=kik2o@aa.co, deleted=false, createdAt=2025-08-28T23:43:38.386622, updatedAt=null]
+2025-08-29T00:44:04.602-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-1] c.j.accounts.logging.loggingAspect       : Exiting: AccountController.fetchAccount with result: <200 OK OK,ResponseDto(code=200, status=200 OK, message=Request processed successfully, data=AccountResponseDto[id=2, username=kik1, email=kik2o@aa.co, deleted=false, createdAt=2025-08-28T23:43:38.386622, updatedAt=null], timestamp=2025-08-29T00:44:04.602065869),[]>
+2025-08-29T00:44:05.201-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-10] c.j.accounts.logging.loggingAspect       : Entering: AccountController.existsByUsername with arguments: [kik1, null]
+2025-08-29T00:44:05.202-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-10] c.j.accounts.logging.loggingAspect       : Entering: AccountServiceImpl.existByUsername with arguments: [kik1]
+2025-08-29T00:44:05.204-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-10] c.j.accounts.logging.loggingAspect       : Exiting: AccountServiceImpl.existByUsername with result: true
+2025-08-29T00:44:05.204-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-10] c.j.accounts.logging.loggingAspect       : Exiting: AccountController.existsByUsername with result: <409 CONFLICT Conflict,ResponseDto(code=409, status=409 CONFLICT, message=Resource already exists, data=true, timestamp=2025-08-29T00:44:05.204442011),[]>
+2025-08-29T00:44:05.691-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-2] c.j.accounts.logging.loggingAspect       : Entering: AccountController.existsByEmail with arguments: [kik2o@aa.co, null]
+2025-08-29T00:44:05.691-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-2] c.j.accounts.logging.loggingAspect       : Entering: AccountServiceImpl.existByEmail with arguments: [kik2o@aa.co]
+2025-08-29T00:44:05.692-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-2] c.j.accounts.logging.loggingAspect       : Exiting: AccountServiceImpl.existByEmail with result: true
+2025-08-29T00:44:05.692-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-2] c.j.accounts.logging.loggingAspect       : Exiting: AccountController.existsByEmail with result: <409 CONFLICT Conflict,ResponseDto(code=409, status=409 CONFLICT, message=Resource already exists, data=true, timestamp=2025-08-29T00:44:05.692913872),[]>
+2025-08-29T00:44:08.838-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-4] c.j.accounts.logging.loggingAspect       : Entering: AccountController.fetchAccount with arguments: [1]
+2025-08-29T00:44:08.838-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-4] c.j.accounts.logging.loggingAspect       : Entering: AccountServiceImpl.fetchAccountById with arguments: [1]
+2025-08-29T00:44:08.840-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-4] c.j.accounts.logging.loggingAspect       : Exiting: AccountServiceImpl.fetchAccountById with result: AccountResponseDto[id=1, username=kiko, email=kiko@aa.co, deleted=false, createdAt=2025-08-28T23:33:22.873169, updatedAt=null]
+2025-08-29T00:44:08.840-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-4] c.j.accounts.logging.loggingAspect       : Exiting: AccountController.fetchAccount with result: <200 OK OK,ResponseDto(code=200, status=200 OK, message=Request processed successfully, data=AccountResponseDto[id=1, username=kiko, email=kiko@aa.co, deleted=false, createdAt=2025-08-28T23:33:22.873169, updatedAt=null], timestamp=2025-08-29T00:44:08.840850131),[]>
+2025-08-29T00:44:09.363-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-3] c.j.accounts.logging.loggingAspect       : Entering: AccountController.existsByUsername with arguments: [kiko, null]
+2025-08-29T00:44:09.364-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-3] c.j.accounts.logging.loggingAspect       : Entering: AccountServiceImpl.existByUsername with arguments: [kiko]
+2025-08-29T00:44:09.367-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-3] c.j.accounts.logging.loggingAspect       : Exiting: AccountServiceImpl.existByUsername with result: true
+2025-08-29T00:44:09.367-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-3] c.j.accounts.logging.loggingAspect       : Exiting: AccountController.existsByUsername with result: <409 CONFLICT Conflict,ResponseDto(code=409, status=409 CONFLICT, message=Resource already exists, data=true, timestamp=2025-08-29T00:44:09.367217371),[]>
+2025-08-29T00:44:09.873-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-6] c.j.accounts.logging.loggingAspect       : Entering: AccountController.existsByEmail with arguments: [kiko@aa.co, null]
+2025-08-29T00:44:09.874-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-6] c.j.accounts.logging.loggingAspect       : Entering: AccountServiceImpl.existByEmail with arguments: [kiko@aa.co]
+2025-08-29T00:44:09.877-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-6] c.j.accounts.logging.loggingAspect       : Exiting: AccountServiceImpl.existByEmail with result: true
+2025-08-29T00:44:09.878-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-6] c.j.accounts.logging.loggingAspect       : Exiting: AccountController.existsByEmail with result: <409 CONFLICT Conflict,ResponseDto(code=409, status=409 CONFLICT, message=Resource already exists, data=true, timestamp=2025-08-29T00:44:09.877931418),[]>
+2025-08-29T00:44:14.313-05:00  INFO 101176 --- [accounts] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-08-29T00:44:15.811-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-5] c.j.accounts.logging.loggingAspect       : Entering: AccountController.fetchAccount with arguments: [1]
+2025-08-29T00:44:15.811-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-5] c.j.accounts.logging.loggingAspect       : Entering: AccountServiceImpl.fetchAccountById with arguments: [1]
+2025-08-29T00:44:15.814-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-5] c.j.accounts.logging.loggingAspect       : Exiting: AccountServiceImpl.fetchAccountById with result: AccountResponseDto[id=1, username=kiko, email=kiko@aa.co, deleted=false, createdAt=2025-08-28T23:33:22.873169, updatedAt=null]
+2025-08-29T00:44:15.814-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-5] c.j.accounts.logging.loggingAspect       : Exiting: AccountController.fetchAccount with result: <200 OK OK,ResponseDto(code=200, status=200 OK, message=Request processed successfully, data=AccountResponseDto[id=1, username=kiko, email=kiko@aa.co, deleted=false, createdAt=2025-08-28T23:33:22.873169, updatedAt=null], timestamp=2025-08-29T00:44:15.814386932),[]>
+2025-08-29T00:44:27.516-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-7] c.j.accounts.logging.loggingAspect       : Entering: AccountController.fetchAccount with arguments: [1]
+2025-08-29T00:44:27.516-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-7] c.j.accounts.logging.loggingAspect       : Entering: AccountServiceImpl.fetchAccountById with arguments: [1]
+2025-08-29T00:44:27.520-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-7] c.j.accounts.logging.loggingAspect       : Exiting: AccountServiceImpl.fetchAccountById with result: AccountResponseDto[id=1, username=kiko, email=kiko@aa.co, deleted=false, createdAt=2025-08-28T23:33:22.873169, updatedAt=null]
+2025-08-29T00:44:27.520-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-7] c.j.accounts.logging.loggingAspect       : Exiting: AccountController.fetchAccount with result: <200 OK OK,ResponseDto(code=200, status=200 OK, message=Request processed successfully, data=AccountResponseDto[id=1, username=kiko, email=kiko@aa.co, deleted=false, createdAt=2025-08-28T23:33:22.873169, updatedAt=null], timestamp=2025-08-29T00:44:27.520345098),[]>
+2025-08-29T00:44:30.558-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-8] c.j.accounts.logging.loggingAspect       : Entering: AccountController.fetchAccount with arguments: [2]
+2025-08-29T00:44:30.559-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-8] c.j.accounts.logging.loggingAspect       : Entering: AccountServiceImpl.fetchAccountById with arguments: [2]
+2025-08-29T00:44:30.563-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-8] c.j.accounts.logging.loggingAspect       : Exiting: AccountServiceImpl.fetchAccountById with result: AccountResponseDto[id=2, username=kik1, email=kik2o@aa.co, deleted=false, createdAt=2025-08-28T23:43:38.386622, updatedAt=null]
+2025-08-29T00:44:30.563-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-8] c.j.accounts.logging.loggingAspect       : Exiting: AccountController.fetchAccount with result: <200 OK OK,ResponseDto(code=200, status=200 OK, message=Request processed successfully, data=AccountResponseDto[id=2, username=kik1, email=kik2o@aa.co, deleted=false, createdAt=2025-08-28T23:43:38.386622, updatedAt=null], timestamp=2025-08-29T00:44:30.563640502),[]>
+2025-08-29T00:44:33.097-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-9] c.j.accounts.logging.loggingAspect       : Entering: AccountController.existsByUsername with arguments: [kik14, null]
+2025-08-29T00:44:33.098-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-9] c.j.accounts.logging.loggingAspect       : Entering: AccountServiceImpl.existByUsername with arguments: [kik14]
+2025-08-29T00:44:33.100-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-9] c.j.accounts.logging.loggingAspect       : Exiting: AccountServiceImpl.existByUsername with result: false
+2025-08-29T00:44:33.100-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-9] c.j.accounts.logging.loggingAspect       : Exiting: AccountController.existsByUsername with result: <200 OK OK,ResponseDto(code=200, status=200 OK, message=Resource is available, data=false, timestamp=2025-08-29T00:44:33.100205699),[]>
+2025-08-29T00:44:37.751-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-1] c.j.accounts.logging.loggingAspect       : Entering: AccountController.existsByUsername with arguments: [kiko, null]
+2025-08-29T00:44:37.752-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-1] c.j.accounts.logging.loggingAspect       : Entering: AccountServiceImpl.existByUsername with arguments: [kiko]
+2025-08-29T00:44:37.755-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-1] c.j.accounts.logging.loggingAspect       : Exiting: AccountServiceImpl.existByUsername with result: true
+2025-08-29T00:44:37.755-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-1] c.j.accounts.logging.loggingAspect       : Exiting: AccountController.existsByUsername with result: <409 CONFLICT Conflict,ResponseDto(code=409, status=409 CONFLICT, message=Resource already exists, data=true, timestamp=2025-08-29T00:44:37.755429520),[]>
+2025-08-29T00:44:44.136-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-10] c.j.accounts.logging.loggingAspect       : Entering: AccountController.fetchAccount with arguments: [2]
+2025-08-29T00:44:44.137-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-10] c.j.accounts.logging.loggingAspect       : Entering: AccountServiceImpl.fetchAccountById with arguments: [2]
+2025-08-29T00:44:44.138-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-10] c.j.accounts.logging.loggingAspect       : Exiting: AccountServiceImpl.fetchAccountById with result: AccountResponseDto[id=2, username=kik1, email=kik2o@aa.co, deleted=false, createdAt=2025-08-28T23:43:38.386622, updatedAt=null]
+2025-08-29T00:44:44.138-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-10] c.j.accounts.logging.loggingAspect       : Exiting: AccountController.fetchAccount with result: <200 OK OK,ResponseDto(code=200, status=200 OK, message=Request processed successfully, data=AccountResponseDto[id=2, username=kik1, email=kik2o@aa.co, deleted=false, createdAt=2025-08-28T23:43:38.386622, updatedAt=null], timestamp=2025-08-29T00:44:44.138460067),[]>
+2025-08-29T00:45:27.318-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-2] c.j.accounts.logging.loggingAspect       : Entering: AccountController.existsByUsername with arguments: [iosauid, null]
+2025-08-29T00:45:27.319-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-2] c.j.accounts.logging.loggingAspect       : Entering: AccountServiceImpl.existByUsername with arguments: [iosauid]
+2025-08-29T00:45:27.323-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-2] c.j.accounts.logging.loggingAspect       : Exiting: AccountServiceImpl.existByUsername with result: false
+2025-08-29T00:45:27.323-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-2] c.j.accounts.logging.loggingAspect       : Exiting: AccountController.existsByUsername with result: <200 OK OK,ResponseDto(code=200, status=200 OK, message=Resource is available, data=false, timestamp=2025-08-29T00:45:27.323416327),[]>
+2025-08-29T00:45:33.146-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-4] c.j.accounts.logging.loggingAspect       : Entering: AccountController.existsByUsername with arguments: [dfsfsfisifsopifspif, null]
+2025-08-29T00:45:33.147-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-4] c.j.accounts.logging.loggingAspect       : Entering: AccountServiceImpl.existByUsername with arguments: [dfsfsfisifsopifspif]
+2025-08-29T00:45:33.152-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-4] c.j.accounts.logging.loggingAspect       : Exiting: AccountServiceImpl.existByUsername with result: false
+2025-08-29T00:45:33.153-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-4] c.j.accounts.logging.loggingAspect       : Exiting: AccountController.existsByUsername with result: <200 OK OK,ResponseDto(code=200, status=200 OK, message=Resource is available, data=false, timestamp=2025-08-29T00:45:33.152791772),[]>
+2025-08-29T00:45:50.817-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-3] c.j.accounts.logging.loggingAspect       : Entering: AccountController.fetchAccount with arguments: [2]
+2025-08-29T00:45:50.817-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-3] c.j.accounts.logging.loggingAspect       : Entering: AccountServiceImpl.fetchAccountById with arguments: [2]
+2025-08-29T00:45:50.819-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-3] c.j.accounts.logging.loggingAspect       : Exiting: AccountServiceImpl.fetchAccountById with result: AccountResponseDto[id=2, username=kik1, email=kik2o@aa.co, deleted=false, createdAt=2025-08-28T23:43:38.386622, updatedAt=null]
+2025-08-29T00:45:50.820-05:00  INFO 101176 --- [accounts] [http-nio-8081-exec-3] c.j.accounts.logging.loggingAspect       : Exiting: AccountController.fetchAccount with result: <200 OK OK,ResponseDto(code=200, status=200 OK, message=Request processed successfully, data=AccountResponseDto[id=2, username=kik1, email=kik2o@aa.co, deleted=false, createdAt=2025-08-28T23:43:38.386622, updatedAt=null], timestamp=2025-08-29T00:45:50.820151075),[]>
+2025-08-29T00:49:14.314-05:00  INFO 101176 --- [accounts] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-08-29T00:54:14.315-05:00  INFO 101176 --- [accounts] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-08-29T00:59:14.316-05:00  INFO 101176 --- [accounts] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-08-29T00:59:34.050-05:00  INFO 101176 --- [accounts] [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application ACCOUNTS with eureka with status DOWN
+2025-08-29T00:59:34.050-05:00  INFO 101176 --- [accounts] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1756447174050, current=DOWN, previous=UP]
+2025-08-29T00:59:34.087-05:00  INFO 101176 --- [accounts] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ACCOUNTS/192.168.0.7:accounts:8081: registering service...
+2025-08-29T00:59:34.153-05:00  INFO 101176 --- [accounts] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-29T00:59:34.215-05:00  INFO 101176 --- [accounts] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-08-29T00:59:34.239-05:00  INFO 101176 --- [accounts] [DiscoveryClient-InstanceInfoReplicator-%d] c.n.d.s.t.d.RedirectingEurekaHttpClient  : Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8070/eureka/} exception=I/O error on POST request for "http://localhost:8070/eureka/apps/ACCOUNTS": Connect to http://localhost:8070 failed: Conexión rehusada stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:8070/eureka/apps/ACCOUNTS": Connect to http://localhost:8070 failed: Conexión rehusada
+	at org.springframework.web.client.RestTemplate.createResourceAccessException(RestTemplate.java:926)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:906)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:841)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:702)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.register(RestTemplateEurekaHttpClient.java:87)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:91)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:76)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:828)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:125)
+	at com.netflix.discovery.InstanceInfoReplicator$2.run(InstanceInfoReplicator.java:105)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.apache.hc.client5.http.HttpHostConnectException: Connect to http://localhost:8070 failed: Conexión rehusada
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:682)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:592)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:751)
+	at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:205)
+	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:490)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:164)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:174)
+	at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:144)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:195)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:150)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:113)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:87)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.apache.hc.client5.http.classic.HttpClient.executeOpen(HttpClient.java:183)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:99)
+	at org.springframework.http.client.AbstractStreamingClientHttpRequest.executeInternal(AbstractStreamingClientHttpRequest.java:71)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:81)
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:117)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateTransportClientFactory.lambda$restTemplate$2(RestTemplateTransportClientFactory.java:145)
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:88)
+	at org.springframework.http.client.InterceptingClientHttpRequest.executeInternal(InterceptingClientHttpRequest.java:72)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:81)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:900)
+	... 21 more
+
+2025-08-29T00:59:34.239-05:00  WARN 101176 --- [accounts] [DiscoveryClient-InstanceInfoReplicator-%d] c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution failed with message: I/O error on POST request for "http://localhost:8070/eureka/apps/ACCOUNTS": Connect to http://localhost:8070 failed: Conexión rehusada
+2025-08-29T00:59:34.258-05:00  INFO 101176 --- [accounts] [DiscoveryClient-InstanceInfoReplicator-%d] c.n.d.s.t.d.RedirectingEurekaHttpClient  : Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8070/eureka/}, exception=I/O error on POST request for "http://localhost:8070/eureka/apps/ACCOUNTS": Connect to http://localhost:8070 failed: Conexión rehusada stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:8070/eureka/apps/ACCOUNTS": Connect to http://localhost:8070 failed: Conexión rehusada
+	at org.springframework.web.client.RestTemplate.createResourceAccessException(RestTemplate.java:926)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:906)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:841)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:702)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.register(RestTemplateEurekaHttpClient.java:87)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:121)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:80)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:76)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:828)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:125)
+	at com.netflix.discovery.InstanceInfoReplicator$2.run(InstanceInfoReplicator.java:105)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.apache.hc.client5.http.HttpHostConnectException: Connect to http://localhost:8070 failed: Conexión rehusada
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:682)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:592)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:751)
+	at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:205)
+	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:490)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:164)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:174)
+	at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:144)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:195)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:150)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:113)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:87)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.apache.hc.client5.http.classic.HttpClient.executeOpen(HttpClient.java:183)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:99)
+	at org.springframework.http.client.AbstractStreamingClientHttpRequest.executeInternal(AbstractStreamingClientHttpRequest.java:71)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:81)
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:117)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateTransportClientFactory.lambda$restTemplate$2(RestTemplateTransportClientFactory.java:145)
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:88)
+	at org.springframework.http.client.InterceptingClientHttpRequest.executeInternal(InterceptingClientHttpRequest.java:72)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:81)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:900)
+	... 22 more
+
+2025-08-29T00:59:34.258-05:00  WARN 101176 --- [accounts] [DiscoveryClient-InstanceInfoReplicator-%d] c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution failed with message: I/O error on POST request for "http://localhost:8070/eureka/apps/ACCOUNTS": Connect to http://localhost:8070 failed: Conexión rehusada
+2025-08-29T00:59:34.258-05:00  WARN 101176 --- [accounts] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ACCOUNTS/192.168.0.7:accounts:8081 - registration failed Cannot execute request on any known server
+
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112) ~[eureka-client-2.0.4.jar:2.0.4]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) ~[eureka-client-2.0.4.jar:2.0.4]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59) ~[eureka-client-2.0.4.jar:2.0.4]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:76) ~[eureka-client-2.0.4.jar:2.0.4]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) ~[eureka-client-2.0.4.jar:2.0.4]
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:828) ~[eureka-client-2.0.4.jar:2.0.4]
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:125) ~[eureka-client-2.0.4.jar:2.0.4]
+	at com.netflix.discovery.InstanceInfoReplicator$2.run(InstanceInfoReplicator.java:105) ~[eureka-client-2.0.4.jar:2.0.4]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+2025-08-29T00:59:34.259-05:00  WARN 101176 --- [accounts] [DiscoveryClient-InstanceInfoReplicator-%d] c.n.discovery.InstanceInfoReplicator     : There was a problem with the instance info replicator
+
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112) ~[eureka-client-2.0.4.jar:2.0.4]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) ~[eureka-client-2.0.4.jar:2.0.4]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59) ~[eureka-client-2.0.4.jar:2.0.4]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:76) ~[eureka-client-2.0.4.jar:2.0.4]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) ~[eureka-client-2.0.4.jar:2.0.4]
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:828) ~[eureka-client-2.0.4.jar:2.0.4]
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:125) ~[eureka-client-2.0.4.jar:2.0.4]
+	at com.netflix.discovery.InstanceInfoReplicator$2.run(InstanceInfoReplicator.java:105) ~[eureka-client-2.0.4.jar:2.0.4]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+2025-08-29T00:59:34.269-05:00  INFO 101176 --- [accounts] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-08-29T00:59:34.296-05:00  WARN 101176 --- [accounts] [SpringApplicationShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: La base de datos ya esta cerrada (para des-habilitar el cerrado automatico durante el shutdown de la VM, agregue ";DB_CLOSE_ON_EXIT=FALSE" a la URL de conexión)
+Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-232]
+2025-08-29T00:59:34.297-05:00  INFO 101176 --- [accounts] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-08-29T00:59:34.298-05:00  INFO 101176 --- [accounts] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-08-29T00:59:34.299-05:00  INFO 101176 --- [accounts] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2025-08-29T00:59:37.300-05:00  INFO 101176 --- [accounts] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2025-08-29T00:59:37.308-05:00  INFO 101176 --- [accounts] [SpringApplicationShutdownHook] c.n.d.s.t.d.RedirectingEurekaHttpClient  : Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8070/eureka/}, exception=I/O error on DELETE request for "http://localhost:8070/eureka/apps/ACCOUNTS/192.168.0.7:accounts:8081": Connect to http://localhost:8070 failed: Conexión rehusada stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on DELETE request for "http://localhost:8070/eureka/apps/ACCOUNTS/192.168.0.7:accounts:8081": Connect to http://localhost:8070 failed: Conexión rehusada
+	at org.springframework.web.client.RestTemplate.createResourceAccessException(RestTemplate.java:926)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:906)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:841)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:702)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.cancel(RestTemplateEurekaHttpClient.java:100)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:121)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:80)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:76)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:919)
+	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:900)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMethod.invoke(InitDestroyAnnotationBeanPostProcessor.java:457)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:415)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:239)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:202)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.run(DisposableBeanAdapter.java:195)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.destroy(GenericScope.java:387)
+	at org.springframework.cloud.context.scope.GenericScope.destroy(GenericScope.java:134)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:211)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:798)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:748)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1474)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:707)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1467)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1219)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1180)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:179)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1126)
+	at org.springframework.boot.SpringApplicationShutdownHook.closeAndWait(SpringApplicationShutdownHook.java:147)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.SpringApplicationShutdownHook.run(SpringApplicationShutdownHook.java:116)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.apache.hc.client5.http.HttpHostConnectException: Connect to http://localhost:8070 failed: Conexión rehusada
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:682)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:592)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:751)
+	at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:205)
+	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:490)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:164)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:174)
+	at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:144)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:195)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:150)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:113)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:87)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.apache.hc.client5.http.classic.HttpClient.executeOpen(HttpClient.java:183)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:99)
+	at org.springframework.http.client.AbstractStreamingClientHttpRequest.executeInternal(AbstractStreamingClientHttpRequest.java:71)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:81)
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:117)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateTransportClientFactory.lambda$restTemplate$2(RestTemplateTransportClientFactory.java:145)
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:88)
+	at org.springframework.http.client.InterceptingClientHttpRequest.executeInternal(InterceptingClientHttpRequest.java:72)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:81)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:900)
+	... 38 more
+
+2025-08-29T00:59:37.309-05:00  WARN 101176 --- [accounts] [SpringApplicationShutdownHook] c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution failed with message: I/O error on DELETE request for "http://localhost:8070/eureka/apps/ACCOUNTS/192.168.0.7:accounts:8081": Connect to http://localhost:8070 failed: Conexión rehusada
+2025-08-29T00:59:37.309-05:00 ERROR 101176 --- [accounts] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ACCOUNTS/192.168.0.7:accounts:8081 - de-registration failedCannot execute request on any known server
+
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112) ~[eureka-client-2.0.4.jar:2.0.4]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71) ~[eureka-client-2.0.4.jar:2.0.4]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74) ~[eureka-client-2.0.4.jar:2.0.4]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:76) ~[eureka-client-2.0.4.jar:2.0.4]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71) ~[eureka-client-2.0.4.jar:2.0.4]
+	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:919) ~[eureka-client-2.0.4.jar:2.0.4]
+	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:900) ~[eureka-client-2.0.4.jar:2.0.4]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMethod.invoke(InitDestroyAnnotationBeanPostProcessor.java:457) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:415) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:239) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:202) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.run(DisposableBeanAdapter.java:195) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.destroy(GenericScope.java:387) ~[spring-cloud-context-4.3.0.jar:4.3.0]
+	at org.springframework.cloud.context.scope.GenericScope.destroy(GenericScope.java:134) ~[spring-cloud-context-4.3.0.jar:4.3.0]
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:211) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:798) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:748) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1474) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:707) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1467) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1219) ~[spring-context-6.2.9.jar:6.2.9]
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1180) ~[spring-context-6.2.9.jar:6.2.9]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:179) ~[spring-boot-3.5.4.jar:3.5.4]
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1126) ~[spring-context-6.2.9.jar:6.2.9]
+	at org.springframework.boot.SpringApplicationShutdownHook.closeAndWait(SpringApplicationShutdownHook.java:147) ~[spring-boot-3.5.4.jar:3.5.4]
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75) ~[na:na]
+	at org.springframework.boot.SpringApplicationShutdownHook.run(SpringApplicationShutdownHook.java:116) ~[spring-boot-3.5.4.jar:3.5.4]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+2025-08-29T00:59:37.309-05:00  INFO 101176 --- [accounts] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient

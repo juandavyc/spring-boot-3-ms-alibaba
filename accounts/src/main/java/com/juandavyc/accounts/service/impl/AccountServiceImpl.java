@@ -18,6 +18,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.data.domain.Pageable;
 
 import java.util.Optional;
+import java.util.UUID;
 
 @Service
 @RequiredArgsConstructor
@@ -26,46 +27,28 @@ public class AccountServiceImpl implements IAccountService {
     private final AccountRepository accountRepository;
 
     @Override
-    public Long createAccount(AccountRequestDto accountRequestDto) {
+    public UUID createAccount(AccountRequestDto accountRequestDto) {
 
         final var username = accountRequestDto.getUsername();
         final var email = accountRequestDto.getEmail();
 
         Optional<Account> accountByUsername = accountRepository.findByUsername(username);
         if (accountByUsername.isPresent())
-            return tryRestoreIfExist(accountByUsername,accountRequestDto,"Username",username);
+            throw new ResourceAlreadyExistsException("Account", "username", username);
         Optional<Account> accountByEmail = accountRepository.findByEmail(email);
         if (accountByEmail.isPresent())
-            return tryRestoreIfExist(accountByEmail,accountRequestDto,"Email",email);
-
+            throw new ResourceAlreadyExistsException("Account", "email", email);
 
         Account account = new Account();
         AccountMapper.toAccount(accountRequestDto, account);
-        Long idSavedAccount = accountRepository.save(account).getId();
-        return idSavedAccount;
-    }
 
-    private Long tryRestoreIfExist(
-            Optional<Account> optionalAccount,
-            AccountRequestDto accountRequestDto,
-            String field,
-            String value
-    ) {
-        Account account = optionalAccount.get();
-
-        if (account.getDeleted()) {
-            account.setDeleted(false);
-            AccountMapper.toAccount(accountRequestDto, account);
-            return accountRepository.save(account).getId();
-        } else {
-            throw new ResourceAlreadyExistsException("Account", field, value);
-        }
-
+        Account savedAccount = accountRepository.save(account);
+        return savedAccount.getId();
     }
 
 
     @Override
-    public AccountResponseDto fetchAccountById(Long id) {
+    public AccountResponseDto fetchAccountById(UUID id) {
 
         Account account = accountRepository.findByIdAndDeletedIsFalse(id)
                 .orElseThrow(() -> new ResourceNotFoundException("Account", "id", id.toString()));
@@ -82,12 +65,12 @@ public class AccountServiceImpl implements IAccountService {
     }
 
     @Override
-    public AccountResponseDto updateAccount(Long id, AccountUpdateDto accountUpdateDto) {
+    public AccountResponseDto updateAccount(UUID id, AccountUpdateDto accountUpdateDto) {
 
-        Account accountToUpdate = accountRepository.findById(id)
+        Account accountToUpdate = accountRepository.findByIdAndDeletedIsFalse(id)
                 .orElseThrow(() -> new ResourceNotFoundException("Account", "id", id.toString()));
 
-        if(accountToUpdate.getDeleted())
+        if (accountToUpdate.getDeleted())
             throw new ResourceNotFoundException("Account", "id", id.toString());
 
         Account account = AccountMapper.accountUpdateToAccount(accountUpdateDto, accountToUpdate);
@@ -100,20 +83,42 @@ public class AccountServiceImpl implements IAccountService {
     }
 
     @Override
-    public boolean deleteAccount(Long id) {
+    public boolean deleteAccount(UUID id) {
         Optional<Account> optionalAccount = accountRepository.findByIdAndDeletedIsFalse(id);
 
         if (optionalAccount.isPresent()) {
             Account account = optionalAccount.get();
-
             account.setDeleted(true);
             accountRepository.save(account);
             return true;
         } else {
             throw new ResourceNotFoundException("Account", "id", id.toString());
         }
-
     }
 
+    @Override
+    public boolean existByEmail(String email) {
+        return accountRepository.existsByEmailIgnoreCase(email);
+    }
+
+    @Override
+    public boolean existByUsername(String username) {
+        return accountRepository.existsByUsernameIgnoreCase(username);
+    }
+
+    @Override
+    public boolean existByEmailInUse(String email, UUID id) {
+        return accountRepository.existsByEmailIgnoreCaseAndIdNot(email, id);
+    }
+
+    @Override
+    public boolean existByUsernameInUse(String username, UUID id) {
+        return accountRepository.existsByUsernameIgnoreCaseAndIdNot(username, id);
+    }
+
+    @Override
+    public boolean existById(UUID id) {
+        return accountRepository.existsById(id);
+    }
 
 }

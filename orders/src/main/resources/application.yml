@@ -1,0 +1,51 @@
+server:
+  port: 8084
+
+spring:
+  application:
+    name: orders
+  config:
+    import: ${SPRING_CONFIG_IMPORT}
+
+  datasource:
+    url: jdbc:h2:mem:ordersdb
+    username: sa
+    password: sc
+    driverClassName: org.h2.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+  cloud:
+    openfeign:
+      client:
+        config:
+          accounts:
+            connect-timeout: 2000
+            read-timeout: 1000
+  cache:
+    type: redis
+
+  data:
+    redis:
+      host: localhost
+      port: 6379
+      timeout: 60000
+
+management:
+  health:
+    livenessstate:
+      enabled: true
+    readinessstate:
+      enabled: true
+  endpoints:
+    web:
+      exposure:
+        include:
+          - health
+          - info
+  endpoint:
+    health:
+      probes:
+        enabled: true

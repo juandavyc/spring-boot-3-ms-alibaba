@@ -11,13 +11,20 @@ spring:
     driverClassName: org.h2.Driver
   jpa:
     database-platform: org.hibernate.dialect.H2Dialect
+    show-sql: true
     hibernate:
       ddl-auto: update
-    show-sql: true
+#  cache:
+#    type: redis
 
-  h2:
-    console:
-      enabled: true
+#  data:
+#    redis:
+#      host: localhost
+#      port: 6379
+#      timeout: 60000
+#  h2:
+#    console:
+#      enabled: true
 
 management:
   endpoints:
@@ -35,3 +42,8 @@ management:
       enabled: true
     readinessstate:
       enabled: true
+#logging:
+#  level:
+#    root: info
+#  file:
+#    name: logs/app.log

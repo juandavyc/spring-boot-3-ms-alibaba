@@ -10,18 +10,21 @@ import org.springframework.lang.NonNull;
 
 import java.util.List;
 import java.util.Optional;
+import java.util.UUID;
 
-public interface AccountRepository extends JpaRepository<Account, Long> {
+public interface AccountRepository extends JpaRepository<Account, UUID> {
+
 
     Page<Account> findAllByDeletedIsFalse(Pageable pageable);
 
-//    boolean existsByUsernameAndDeletedIsFalse(String username);
-//    boolean existsByEmailAndDeletedIsFalse(String email);
+    boolean existsByUsernameIgnoreCase(String username);
+    boolean existsByEmailIgnoreCase(String email);
 
-    Optional<Account> findByIdAndDeletedIsFalse(Long id);
+    boolean existsByEmailIgnoreCaseAndIdNot(String email, UUID id);
+    boolean existsByUsernameIgnoreCaseAndIdNot(String username, UUID id);
+
+    Optional<Account> findByIdAndDeletedIsFalse(UUID id);
     Optional<Account> findByUsername(String userName);
     Optional<Account> findByEmail(String email);
-
-
 
 }

@@ -1,6 +1,6 @@
 CREATE TABLE IF NOT EXISTS products
 (
-    id          BIGINT PRIMARY KEY AUTO_INCREMENT,
+    id          UUID PRIMARY KEY,
     code        VARCHAR(50) UNIQUE NOT NULL,
     name        VARCHAR(150)       NOT NULL,
     description TEXT,
